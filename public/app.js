@@ -1,4 +1,4 @@
-const state = {
+﻿const state = {
   questions: []
 };
 
@@ -27,10 +27,13 @@ function escapeHtml(value) {
 
 async function fetchJson(url, options) {
   const response = await fetch(url, options);
+  const data = await response.json().catch(() => ({}));
+
   if (!response.ok) {
-    throw new Error('Request failed');
+    throw new Error(data.error || 'Request failed');
   }
-  return response.json();
+
+  return data;
 }
 
 async function loadMeta() {
@@ -130,9 +133,14 @@ function buildAnswers() {
   const answers = {};
 
   for (const question of state.questions) {
-    if (question.type === 'single_choice' || question.type === 'short_answer') {
-      const input = elements.quizForm.querySelector(`[name="q-${question.number}"]:checked`)
-        || elements.quizForm.querySelector(`input[name="q-${question.number}"]`);
+    if (question.type === 'single_choice') {
+      const input = elements.quizForm.querySelector(`[name="q-${question.number}"]:checked`);
+      answers[String(question.number)] = input ? input.value : '';
+      continue;
+    }
+
+    if (question.type === 'short_answer') {
+      const input = elements.quizForm.querySelector(`input[name="q-${question.number}"]`);
       answers[String(question.number)] = input ? input.value : '';
       continue;
     }
@@ -164,10 +172,16 @@ function buildAnswers() {
 }
 
 function renderResult(result) {
+  const saveNote = result.saved === false
+    ? `<p class="subtitle">${escapeHtml(result.storage_warning || 'Chưa lưu được lịch sử làm bài.')}</p>`
+    : '<p class="subtitle">Kết quả đã được lưu vào D1.</p>';
+
   elements.resultSection.innerHTML = `
     <div class="section-header">
-      <h2>Kết quả</h2>
-      <p>${result.student_name ? `Học sinh: ${escapeHtml(result.student_name)}` : 'Không nhập tên'}</p>
+      <div>
+        <h2>Kết quả</h2>
+        <p>${result.student_name ? `Học sinh: ${escapeHtml(result.student_name)}` : 'Chưa nhập tên học sinh'}</p>
+      </div>
     </div>
     <div class="result-grid">
       <div class="result-box">
@@ -183,10 +197,11 @@ function renderResult(result) {
         <strong>${result.wrong_count}</strong>
       </div>
       <div class="result-box">
-        Tỉ lệ đúng
+        Tỷ lệ đúng
         <strong>${result.percentage}%</strong>
       </div>
     </div>
+    ${saveNote}
   `;
   elements.resultSection.classList.remove('hidden');
 }
@@ -210,10 +225,10 @@ async function loadHistory() {
     .map((item) => `
       <div class="history-item">
         <div>${escapeHtml(item.student_name || 'Không tên')}</div>
+        <div>${escapeHtml(item.subject_filter === 'all' ? 'Tất cả môn' : item.subject_filter)}</div>
         <div>${formatDate(item.submitted_at)}</div>
         <div>${item.correct_count}/${item.total_questions} đúng</div>
-        <div>${item.percentage}%</div>
-        <div>Điểm ${item.score10}</div>
+        <div>${item.percentage}% • Điểm ${item.score10}</div>
       </div>
     `)
     .join('');
@@ -241,6 +256,7 @@ async function submitQuiz() {
   try {
     const payload = {
       studentName: elements.studentName.value,
+      subjectFilter: elements.subjectSelect.value,
       questionNumbers: state.questions.map((question) => question.number),
       answers: buildAnswers()
     };
@@ -265,7 +281,7 @@ elements.startBtn.addEventListener('click', startQuiz);
 elements.submitBtn.addEventListener('click', submitQuiz);
 elements.refreshHistoryBtn.addEventListener('click', loadHistory);
 
-Promise.all([loadMeta(), loadHistory()]).catch(() => {
+Promise.all([loadMeta(), loadHistory()]).catch((error) => {
   elements.metaSummary.textContent = 'Không tải được dữ liệu ngân hàng câu hỏi.';
-  elements.historyList.innerHTML = '<p>Không tải được lịch sử làm bài.</p>';
+  elements.historyList.innerHTML = `<p>${escapeHtml(error.message || 'Không tải được lịch sử làm bài.')}</p>`;
 });

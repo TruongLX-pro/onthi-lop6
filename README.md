@@ -1,34 +1,66 @@
-# onthi-lop6
+﻿# onthi-lop6
 
-Ứng dụng local đơn giản để học sinh ôn tập đầu vào lớp 6 bằng ngân hàng câu hỏi Kết nối tri thức.
+Ứng dụng ôn tập đầu vào lớp 6 chạy trên Cloudflare Workers + D1, dùng ngân hàng câu hỏi Kết nối tri thức.
 
-## Chạy local
+## Cấu trúc chính
+
+- `public/`: giao diện 1 trang cho học sinh làm bài.
+- `src/index.mjs`: Worker xử lý API và chấm bài.
+- `src/question-bank.mjs`: ngân hàng câu hỏi đã được đóng gói cho runtime Worker.
+- `migrations/0001_create_attempts.sql`: bảng D1 lưu lịch sử làm bài.
+- `data/kntt-lop6-ontap-bank-v2.jsonl`: nguồn dữ liệu câu hỏi gốc.
+
+## Chạy local với Workers + D1
 
 ```powershell
 cd "D:\Codex project root\test-ums"
 npm install
+npm run db:migrate:local
 npm start
 ```
 
 Mở trình duyệt tại:
 
 ```text
-http://localhost:3000
+http://localhost:8787
 ```
 
-## Tính năng
+## Cập nhật ngân hàng câu hỏi
 
-- Tạo đề ôn theo môn hoặc tất cả môn
-- Chọn số câu cho mỗi lượt làm
-- Chấm điểm ngay sau khi nộp
-- Hiển thị số câu đúng, số câu sai, tỉ lệ đúng và điểm thang 10
-- Lưu lịch sử từng lần làm bài trên máy local
+Mỗi khi chỉnh file `data/kntt-lop6-ontap-bank-v2.jsonl`, hãy chạy lại:
 
-## Dữ liệu chính
+```powershell
+npm run build
+```
 
-- `data/kntt-lop6-ontap-bank-v2.jsonl`
+Lệnh này sẽ sinh lại file `src/question-bank.mjs` để Worker dùng trực tiếp.
+
+## Deploy lên Cloudflare
+
+Repo này đã được cấu hình sẵn với D1 database:
+- `database_name`: `onthi-lop6-db`
+- `database_id`: `6166e811-abe4-49cd-9f24-48450e57e2dc`
+
+Các bước deploy:
+
+1. Đăng nhập Wrangler nếu máy chưa đăng nhập:
+   ```powershell
+   npx wrangler login
+   ```
+2. Chạy migration remote:
+   ```powershell
+   npm run db:migrate:remote
+   ```
+3. Deploy:
+   ```powershell
+   npm run deploy
+   ```
+
+Nếu deploy bằng Git trên Cloudflare dashboard:
+- `Build command`: `npm run build`
+- `Deploy command`: `npx wrangler deploy`
 
 ## Ghi chú
 
-- File PDF sách giáo khoa gốc và ảnh trung gian không được đưa lên git.
-- File `data/attempt-results.jsonl` là dữ liệu local của từng máy nên cũng không được track.
+- Giao diện giữ luồng đơn giản: tạo đề, làm bài, nộp bài, xem điểm và lịch sử gần đây.
+- Các file PDF sách giáo khoa gốc vẫn được giữ local và không đẩy lên git.

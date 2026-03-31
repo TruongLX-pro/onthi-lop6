@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "onthi-lop6",
+  "main": "src/index.mjs",
+  "compatibility_date": "2026-03-31",
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "onthi-lop6-db",
+      "database_id": "6166e811-abe4-49cd-9f24-48450e57e2dc",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
