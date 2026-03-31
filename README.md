@@ -2,13 +2,17 @@
 
 Ứng dụng ôn tập đầu vào lớp 6 chạy trên Cloudflare Workers + D1, dùng ngân hàng câu hỏi Kết nối tri thức.
 
-## Cấu trúc chính
+## Dữ liệu hiện tại
 
-- `public/`: giao diện 1 trang cho học sinh làm bài.
-- `src/index.mjs`: Worker xử lý API và chấm bài.
-- `src/question-bank.mjs`: ngân hàng câu hỏi đã được đóng gói cho runtime Worker.
-- `migrations/0001_create_attempts.sql`: bảng D1 lưu lịch sử làm bài.
-- `data/kntt-lop6-ontap-bank-v2.jsonl`: nguồn dữ liệu câu hỏi gốc.
+- Bank đang dùng: `data/kntt-lop6-ontap-bank-v3.jsonl`
+- Bank cũ để đối chiếu: `data/kntt-lop6-ontap-bank-v2.jsonl`
+- Ma trận và ghi chú cải tiến: `data/kntt-lop6-ontap-bank-v3.md`
+
+## Điểm mới của v3
+
+- Tăng mạnh câu hỏi tình huống, suy luận, so sánh, vận dụng.
+- Bổ sung metadata: `source_origin`, `quality_tier`, `source_unit`, `source_lesson`, `skill_tag`.
+- Bộ chọn đề trong Worker ưu tiên câu `hard` và `vận dụng` thay vì rút ngẫu nhiên hoàn toàn.
 
 ## Chạy local với Workers + D1
 
@@ -25,15 +29,14 @@ Mở trình duyệt tại:
 http://localhost:8787
 ```
 
-## Cập nhật ngân hàng câu hỏi
+## Sinh lại ngân hàng câu hỏi
 
-Mỗi khi chỉnh file `data/kntt-lop6-ontap-bank-v2.jsonl`, hãy chạy lại:
+Nếu chỉnh bank nguồn hoặc script ghép bank:
 
 ```powershell
+node scripts/generate_bank_v3.js
 npm run build
 ```
-
-Lệnh này sẽ sinh lại file `src/question-bank.mjs` để Worker dùng trực tiếp.
 
 ## Deploy lên Cloudflare
 
@@ -59,8 +62,3 @@ Các bước deploy:
 Nếu deploy bằng Git trên Cloudflare dashboard:
 - `Build command`: `npm run build`
 - `Deploy command`: `npx wrangler deploy`
-
-## Ghi chú
-
-- Giao diện giữ luồng đơn giản: tạo đề, làm bài, nộp bài, xem điểm và lịch sử gần đây.
-- Các file PDF sách giáo khoa gốc vẫn được giữ local và không đẩy lên git.

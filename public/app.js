@@ -1,5 +1,6 @@
 ﻿const state = {
-  questions: []
+  questions: [],
+  resultsByNumber: new Map()
 };
 
 const elements = {
@@ -23,6 +24,17 @@ function escapeHtml(value) {
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#39;');
+}
+
+function normalizeText(value) {
+  return String(value || '')
+    .trim()
+    .replace(/\s+/g, ' ')
+    .toLowerCase();
+}
+
+function clearQuestionFeedback() {
+  state.resultsByNumber = new Map();
 }
 
 async function fetchJson(url, options) {
@@ -49,7 +61,7 @@ async function loadMeta() {
 function renderSingleChoice(question) {
   const options = Object.entries(question.options || {})
     .map(([key, value]) => `
-      <div class="option-item">
+      <div class="option-item" data-option-value="${escapeHtml(key)}">
         <label>
           <input type="radio" name="q-${question.number}" value="${escapeHtml(key)}" />
           <span><strong>${escapeHtml(key)}.</strong> ${escapeHtml(value)}</span>
@@ -69,8 +81,11 @@ function renderMatching(question) {
   const pool = question.option_pool || [];
   return (question.items || [])
     .map((item, index) => `
-      <div class="match-row">
-        <div><strong>${index + 1}.</strong> ${escapeHtml(item.label)}</div>
+      <div class="match-row" data-match-row="${escapeHtml(item.label)}">
+        <div>
+          <strong>${index + 1}.</strong> ${escapeHtml(item.label)}
+          <div class="row-feedback"></div>
+        </div>
         <select data-match-label="${escapeHtml(item.label)}" name="q-${question.number}">
           <option value="">Chọn đáp án</option>
           ${pool.map((option) => `<option value="${escapeHtml(option)}">${escapeHtml(option)}</option>`).join('')}
@@ -86,8 +101,11 @@ function renderOrdering(question) {
 
   return (question.sentences || [])
     .map((item) => `
-      <div class="order-row">
-        <div>${escapeHtml(item.text)}</div>
+      <div class="order-row" data-order-row="${item.original_index}">
+        <div>
+          ${escapeHtml(item.text)}
+          <div class="row-feedback"></div>
+        </div>
         <select data-order-index="${item.original_index}" name="q-${question.number}">
           <option value="">Chọn thứ tự</option>
           ${orderChoices.map((choice) => `<option value="${choice}">${choice}</option>`).join('')}
@@ -111,13 +129,14 @@ function renderQuestion(question, index) {
   }
 
   return `
-    <article class="question-card">
+    <article class="question-card" data-question-number="${question.number}" data-question-type="${escapeHtml(question.type)}">
       <div class="question-meta">
         Câu ${index + 1} • Lớp ${escapeHtml(question.grade)} • ${escapeHtml(question.subject)} • ${escapeHtml(question.topic)}
       </div>
       <div class="question-title">${escapeHtml(question.question)}</div>
       ${question.passage ? `<div class="passage">${escapeHtml(question.passage)}</div>` : ''}
       ${answerHtml}
+      <div class="question-feedback"></div>
     </article>
   `;
 }
@@ -169,6 +188,178 @@ function buildAnswers() {
   }
 
   return answers;
+}
+
+function formatCorrectAnswer(result) {
+  if (result.type === 'single_choice') {
+    return `Đáp án đúng: ${escapeHtml(result.correct_answer)}`;
+  }
+
+  if (result.type === 'short_answer') {
+    return `Đáp án đúng: ${escapeHtml(result.correct_answer)}`;
+  }
+
+  if (result.type === 'matching') {
+    return Object.entries(result.correct_answer || {})
+      .map(([label, answer]) => `${escapeHtml(label)} → ${escapeHtml(answer)}`)
+      .join(' • ');
+  }
+
+  if (result.type === 'ordering') {
+    return `Thứ tự đúng: ${(result.correct_answer || []).join(' - ')}`;
+  }
+
+  return '';
+}
+
+function setQuestionFeedback(card, html, correct) {
+  const feedback = card.querySelector('.question-feedback');
+  feedback.innerHTML = html;
+  feedback.className = `question-feedback ${correct ? 'feedback-correct' : 'feedback-wrong'}`;
+}
+
+function applySingleChoiceFeedback(card, result) {
+  const selectedValue = String(result.submitted_answer || '');
+  const correctValue = String(result.correct_answer || '');
+  const inputs = [...card.querySelectorAll('input[type="radio"]')];
+
+  inputs.forEach((input) => {
+    input.disabled = true;
+    const option = input.closest('.option-item');
+    option.classList.remove('option-correct', 'option-wrong');
+
+    if (input.value === correctValue) {
+      option.classList.add('option-correct');
+    }
+
+    if (input.checked && input.value !== correctValue) {
+      option.classList.add('option-wrong');
+    }
+  });
+
+  if (result.correct) {
+    setQuestionFeedback(card, 'Em đã làm đúng câu này.', true);
+  } else {
+    const selectedText = selectedValue ? `Em đã chọn: ${escapeHtml(selectedValue)}.` : 'Em chưa chọn đáp án.';
+    setQuestionFeedback(card, `${selectedText} <span class="answer-note">Đáp án đúng là ${escapeHtml(correctValue)}.</span>`, false);
+  }
+}
+
+function applyShortAnswerFeedback(card, result) {
+  const input = card.querySelector('input[type="text"]');
+  if (!input) {
+    return;
+  }
+
+  input.disabled = true;
+  input.classList.remove('input-correct', 'input-wrong');
+  input.classList.add(result.correct ? 'input-correct' : 'input-wrong');
+
+  if (result.correct) {
+    setQuestionFeedback(card, 'Em đã điền đúng đáp án.', true);
+  } else {
+    const submittedText = normalizeText(result.submitted_answer)
+      ? `Em đã điền: ${escapeHtml(result.submitted_answer)}.`
+      : 'Em chưa điền đáp án.';
+    setQuestionFeedback(card, `${submittedText} <span class="answer-note">Đáp án đúng: ${escapeHtml(result.correct_answer)}.</span>`, false);
+  }
+}
+
+function applyMatchingFeedback(card, result) {
+  const submitted = result.submitted_answer || {};
+  const expected = result.correct_answer || {};
+  const rows = [...card.querySelectorAll('[data-match-row]')];
+
+  rows.forEach((row) => {
+    const label = row.dataset.matchRow;
+    const select = row.querySelector('select');
+    const feedback = row.querySelector('.row-feedback');
+    const isRowCorrect = normalizeText(submitted[label]) === normalizeText(expected[label]);
+
+    row.classList.remove('row-correct', 'row-wrong');
+    row.classList.add(isRowCorrect ? 'row-correct' : 'row-wrong');
+    if (select) {
+      select.disabled = true;
+    }
+
+    feedback.innerHTML = isRowCorrect
+      ? '<span class="feedback-correct">Đúng</span>'
+      : `<span class="feedback-wrong">Sai</span> <span class="answer-note">Đáp án đúng: ${escapeHtml(expected[label] || '')}</span>`;
+  });
+
+  setQuestionFeedback(
+    card,
+    result.correct
+      ? 'Em đã ghép đúng toàn bộ.'
+      : `<span class="answer-note">Gợi ý đúng: ${formatCorrectAnswer(result)}</span>`,
+    result.correct
+  );
+}
+
+function applyOrderingFeedback(card, result) {
+  const submitted = Array.isArray(result.submitted_answer) ? result.submitted_answer.map(Number) : [];
+  const expected = Array.isArray(result.correct_answer) ? result.correct_answer.map(Number) : [];
+  const rows = [...card.querySelectorAll('[data-order-row]')];
+
+  rows.forEach((row) => {
+    const sentenceIndex = Number(row.dataset.orderRow);
+    const select = row.querySelector('select');
+    const feedback = row.querySelector('.row-feedback');
+    const actualPosition = submitted.indexOf(sentenceIndex) + 1;
+    const expectedPosition = expected.indexOf(sentenceIndex) + 1;
+    const isRowCorrect = actualPosition > 0 && actualPosition === expectedPosition;
+
+    row.classList.remove('row-correct', 'row-wrong');
+    row.classList.add(isRowCorrect ? 'row-correct' : 'row-wrong');
+    if (select) {
+      select.disabled = true;
+    }
+
+    feedback.innerHTML = isRowCorrect
+      ? `<span class="feedback-correct">Đúng ở vị trí ${expectedPosition}</span>`
+      : `<span class="feedback-wrong">Sai</span> <span class="answer-note">Vị trí đúng: ${expectedPosition}</span>`;
+  });
+
+  setQuestionFeedback(
+    card,
+    result.correct
+      ? 'Em đã sắp xếp đúng thứ tự.'
+      : `<span class="answer-note">Thứ tự đúng là: ${(result.correct_answer || []).join(' - ')}</span>`,
+    result.correct
+  );
+}
+
+function applyQuestionResults() {
+  const cards = [...elements.quizForm.querySelectorAll('[data-question-number]')];
+
+  cards.forEach((card) => {
+    const result = state.resultsByNumber.get(String(card.dataset.questionNumber));
+    if (!result) {
+      return;
+    }
+
+    card.classList.remove('is-correct', 'is-incorrect');
+    card.classList.add(result.correct ? 'is-correct' : 'is-incorrect');
+
+    if (result.type === 'single_choice') {
+      applySingleChoiceFeedback(card, result);
+      return;
+    }
+
+    if (result.type === 'short_answer') {
+      applyShortAnswerFeedback(card, result);
+      return;
+    }
+
+    if (result.type === 'matching') {
+      applyMatchingFeedback(card, result);
+      return;
+    }
+
+    if (result.type === 'ordering') {
+      applyOrderingFeedback(card, result);
+    }
+  });
 }
 
 function renderResult(result) {
@@ -241,6 +432,7 @@ async function startQuiz() {
     const count = encodeURIComponent(elements.countSelect.value);
     const data = await fetchJson(`/api/questions?subject=${subject}&count=${count}`);
     state.questions = data.questions;
+    clearQuestionFeedback();
     renderQuestions();
   } finally {
     elements.startBtn.disabled = false;
@@ -269,9 +461,11 @@ async function submitQuiz() {
       body: JSON.stringify(payload)
     });
 
+    state.resultsByNumber = new Map(result.results.map((item) => [String(item.number), item]));
     renderResult(result);
+    applyQuestionResults();
     await loadHistory();
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    elements.resultSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
   } finally {
     elements.submitBtn.disabled = false;
   }

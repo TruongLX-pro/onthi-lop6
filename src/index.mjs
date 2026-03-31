@@ -57,7 +57,27 @@ function pickQuestions(count, subject) {
     ? questionBank.filter((item) => item.subject === subject)
     : questionBank;
 
-  return shuffle(filtered).slice(0, Math.min(count, filtered.length));
+  const hard = shuffle(filtered.filter((item) => item.quality_tier === 'hard' || item.difficulty === 'vận dụng'));
+  const medium = shuffle(filtered.filter((item) => item.difficulty === 'thông hiểu' && !hard.includes(item)));
+  const easy = shuffle(filtered.filter((item) => item.difficulty === 'nhận biết'));
+
+  const targetHard = Math.min(Math.ceil(count * 0.45), hard.length);
+  const targetMedium = Math.min(Math.ceil(count * 0.4), medium.length);
+  const targetEasy = Math.max(0, Math.min(count - targetHard - targetMedium, easy.length));
+
+  const selected = [
+    ...hard.slice(0, targetHard),
+    ...medium.slice(0, targetMedium),
+    ...easy.slice(0, targetEasy)
+  ];
+
+  if (selected.length < count) {
+    const chosen = new Set(selected);
+    const remaining = shuffle(filtered.filter((item) => !chosen.has(item)));
+    selected.push(...remaining.slice(0, count - selected.length));
+  }
+
+  return shuffle(selected).slice(0, Math.min(count, filtered.length));
 }
 
 function isCorrect(question, answer) {
@@ -94,6 +114,17 @@ function isCorrect(question, answer) {
   return false;
 }
 
+function getDetailedCorrectAnswer(question) {
+  if (question.type === 'matching') {
+    return question.items.reduce((accumulator, item) => {
+      accumulator[item.label] = item.correct_match;
+      return accumulator;
+    }, {});
+  }
+
+  return question.correct_answer;
+}
+
 function gradeSubmission(payload) {
   const answers = payload.answers || {};
   const selectedQuestions = Array.isArray(payload.questionNumbers) ? payload.questionNumbers : [];
@@ -115,7 +146,7 @@ function gradeSubmission(payload) {
         type: question.type,
         correct,
         submitted_answer: submittedAnswer ?? null,
-        correct_answer: question.correct_answer
+        correct_answer: getDetailedCorrectAnswer(question)
       };
     })
     .filter(Boolean);
@@ -266,3 +297,5 @@ export default {
     return env.ASSETS.fetch(request);
   }
 };
+
+
