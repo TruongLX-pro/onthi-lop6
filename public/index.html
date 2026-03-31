@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ôn tập lớp 6 - KNTT</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <div>
+          <p class="eyebrow">Local Quiz</p>
+          <h1>Ôn tập đầu vào lớp 6</h1>
+          <p class="subtitle">
+            Dùng ngân hàng câu hỏi Kết nối tri thức để luyện tập nhanh tại máy local.
+          </p>
+        </div>
+        <div class="hero-card">
+          <p id="metaSummary">Đang tải dữ liệu...</p>
+        </div>
+      </section>
+
+      <section class="controls card">
+        <div class="control-grid">
+          <label>
+            Tên học sinh
+            <input id="studentName" type="text" placeholder="Ví dụ: Minh Anh" />
+          </label>
+          <label>
+            Môn
+            <select id="subjectSelect"></select>
+          </label>
+          <label>
+            Số câu
+            <select id="countSelect">
+              <option value="10">10 câu</option>
+              <option value="20" selected>20 câu</option>
+              <option value="30">30 câu</option>
+              <option value="40">40 câu</option>
+              <option value="60">60 câu</option>
+            </select>
+          </label>
+        </div>
+        <div class="control-actions">
+          <button id="startBtn" class="primary">Tạo đề mới</button>
+          <button id="submitBtn" class="secondary" disabled>Nộp bài</button>
+        </div>
+      </section>
+
+      <section id="resultSection" class="card hidden"></section>
+
+      <section class="card">
+        <div class="section-header">
+          <h2>Bài làm</h2>
+          <p id="questionCountText"></p>
+        </div>
+        <form id="quizForm" class="quiz-list"></form>
+      </section>
+
+      <section class="card">
+        <div class="section-header">
+          <h2>Lịch sử làm bài gần đây</h2>
+          <button id="refreshHistoryBtn" class="ghost">Làm mới</button>
+        </div>
+        <div id="historyList" class="history-list"></div>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+</html>

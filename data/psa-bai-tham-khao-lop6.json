@@ -1,0 +1,12 @@
+﻿{
+  "dataset_id": "psa-bai-tham-khao-lop6-v1",
+  "title": "PSA - Bài tham khảo thi đầu vào lớp 6",
+  "format": "jsonl",
+  "record_count": 60,
+  "main_data_file": "data/psa-bai-tham-khao-lop6.jsonl",
+  "notes": [
+    "Mỗi dòng trong file jsonl là một câu hỏi độc lập.",
+    "Trường screen_selected_answer lưu đáp án học sinh đã chọn trên ảnh, nếu có.",
+    "Trường correct_answer là đáp án đã được kiểm tra lại."
+  ]
+}
