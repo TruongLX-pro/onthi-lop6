@@ -6,6 +6,627 @@ export default [
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "An toàn khi mua bán",
+    "source_unit": "Cộng đồng địa phương",
+    "source_lesson": "Hoạt động mua bán hàng hoá",
+    "skill_tag": [
+      "application",
+      "community"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi đi chợ cùng mẹ, việc làm nào thể hiện thói quen mua bán văn minh?",
+    "options": {
+      "A": "Xếp hàng, giữ trật tự và nhận hàng đúng phần của mình",
+      "B": "Chen lên trước vì nghĩ mua ít được ưu tiên",
+      "C": "Tự ý bóc hàng ăn thử rồi bỏ lại",
+      "D": "Vứt cuống rau xuống nền chợ cho tiện"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 1,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Bảo vệ môi trường xung quanh",
+    "source_unit": "Cộng đồng địa phương",
+    "source_lesson": "Bảo vệ môi trường nơi em sống",
+    "skill_tag": [
+      "environment",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu lớp em tổ chức dọn vệ sinh khu vực cổng trường, việc nào là hợp lí nhất?",
+    "options": {
+      "A": "Phân công công việc, mang dụng cụ phù hợp và bỏ rác đúng nơi quy định",
+      "B": "Gom rác lại rồi để ngay cạnh cổng cho tiện",
+      "C": "Đốt lá và túi nhựa chung một chỗ để nhanh sạch",
+      "D": "Chỉ chụp ảnh hoạt động mà không tham gia dọn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 2,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Chăm sóc cây trồng",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Chăm sóc và bảo vệ cây trồng",
+    "skill_tag": [
+      "biology",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu cây lớp em trồng có lá héo rũ sau nhiều ngày nắng gắt, nguyên nhân dễ nghĩ đến trước nhất là gì?",
+    "options": {
+      "A": "Cây thiếu nước và cần được chăm sóc phù hợp",
+      "B": "Cây nhận quá nhiều tiếng nói của học sinh",
+      "C": "Cây héo vì có quá nhiều bóng râm",
+      "D": "Cây nào cũng phải héo vào buổi trưa dù đủ nước"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 3,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Chăm sóc cơ thể",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Vệ sinh cơ thể và phòng bệnh",
+    "skill_tag": [
+      "health",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Thói quen nào giúp hạn chế bệnh đường tiêu hoá cho học sinh tiểu học?",
+    "options": {
+      "A": "Rửa tay trước khi ăn và sau khi đi vệ sinh",
+      "B": "Ăn nhanh đồ nguội để tiết kiệm thời gian",
+      "C": "Dùng chung cốc uống nước với nhiều bạn",
+      "D": "Chỉ rửa tay khi tay nhìn thấy bẩn rõ"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 4,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Chăm sóc vật nuôi",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Chăm sóc và bảo vệ vật nuôi",
+    "skill_tag": [
+      "biology",
+      "behavior"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi chơi với chó mèo trong nhà, việc nào an toàn và đúng cách hơn cả?",
+    "options": {
+      "A": "Không chọc phá, rửa tay sau khi chơi và nhờ người lớn hỗ trợ khi cần",
+      "B": "Ôm ghì vật nuôi khi chúng đang ăn",
+      "C": "Kéo đuôi để thử phản ứng của chúng",
+      "D": "Cho vật nuôi ăn bất cứ thứ gì mình thích"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 5,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Mặt Trời và phương hướng",
+    "source_unit": "Trái Đất và bầu trời",
+    "source_lesson": "Mặt Trời và phương hướng",
+    "skill_tag": [
+      "astronomy",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Buổi sáng, nếu em đứng quay mặt về phía Mặt Trời mọc, phía tay trái em thường là hướng nào?",
+    "options": {
+      "A": "Bắc",
+      "B": "Nam",
+      "C": "Tây",
+      "D": "Đông"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 6,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Ngày kỉ niệm của gia đình",
+    "source_unit": "Gia đình",
+    "source_lesson": "Họ hàng và những ngày kỉ niệm của gia đình",
+    "skill_tag": [
+      "family",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong ngày sinh nhật của ông, việc làm nào thể hiện sự quan tâm phù hợp nhất của học sinh lớp 3?",
+    "options": {
+      "A": "Chuẩn bị lời chúc và giúp việc vừa sức theo khả năng",
+      "B": "Tự ý mời thật nhiều khách mà không hỏi người lớn",
+      "C": "Đòi quà trước rồi mới chúc mừng",
+      "D": "Bỏ sang nhà bạn chơi vì nghĩ người lớn tự lo được"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 7,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Nghề nghiệp địa phương",
+    "source_unit": "Cộng đồng địa phương",
+    "source_lesson": "Một số hoạt động sản xuất ở địa phương",
+    "skill_tag": [
+      "production",
+      "classification"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Đặc điểm nào thường gặp ở nghề làm nón, đan lát, làm gốm ở địa phương?",
+    "options": {
+      "A": "Sản phẩm thường gắn với sự khéo léo của người thợ và có thể làm theo lô nhỏ",
+      "B": "Chỉ tạo ra sản phẩm bằng dây chuyền rô-bốt tự động hoàn toàn",
+      "C": "Chỉ xuất hiện ở những nơi có mỏ than lớn",
+      "D": "Không cần nguyên liệu và dụng cụ lao động"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 8,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "matching",
+    "topic": "Nơi sống của sinh vật",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Nơi sống của động vật",
+    "skill_tag": [
+      "biology",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép con vật với nơi sống phù hợp nhất.",
+    "items": [
+      {
+        "label": "Cá rô",
+        "correct_match": "Ao, hồ"
+      },
+      {
+        "label": "Gà",
+        "correct_match": "Chuồng, sân vườn"
+      },
+      {
+        "label": "Ong",
+        "correct_match": "Tổ trên cây hoặc mái hiên"
+      }
+    ],
+    "option_pool": [
+      "Ao, hồ",
+      "Chuồng, sân vườn",
+      "Tổ trên cây hoặc mái hiên"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 9,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Phân biệt thân, rễ, lá",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Một số bộ phận của thực vật",
+    "skill_tag": [
+      "classification",
+      "biology"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Bộ phận nào của cây thường có nhiệm vụ hút nước và chất khoáng từ đất?",
+    "options": {
+      "A": "Rễ",
+      "B": "Hoa",
+      "C": "Quả",
+      "D": "Hạt"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 10,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "ordering",
+    "topic": "Rửa tay đúng cách",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Vệ sinh cơ thể",
+    "skill_tag": [
+      "health",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp theo thứ tự hợp lí các việc sau khi rửa tay.",
+    "items": [
+      {
+        "label": "Làm ướt tay và lấy xà phòng",
+        "correct_position": 1
+      },
+      {
+        "label": "Chà sạch lòng bàn tay, kẽ ngón tay",
+        "correct_position": 2
+      },
+      {
+        "label": "Xả sạch dưới vòi nước và lau khô",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 11,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Sắp xếp công việc khi có cháy",
+    "source_unit": "Gia đình",
+    "source_lesson": "Phòng tránh hoả hoạn khi ở nhà",
+    "skill_tag": [
+      "safety",
+      "sequence"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi phát hiện khói bốc ra từ ổ điện, em nên ưu tiên cách xử lí nào?",
+    "options": {
+      "A": "Báo người lớn, tránh xa nơi nguy hiểm và tìm cách ra chỗ an toàn",
+      "B": "Lấy tay rút dây điện ngay cho nhanh",
+      "C": "Đứng lại quan sát xem khói có tự hết không",
+      "D": "Đổ nước vào ổ điện để dập ngay"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 12,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Truyền thống nhà trường",
+    "source_unit": "Trường học",
+    "source_lesson": "Truyền thống nhà trường",
+    "skill_tag": [
+      "school",
+      "respect"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Cách tìm hiểu truyền thống nhà trường nào phù hợp và đáng tin cậy nhất?",
+    "options": {
+      "A": "Nghe thầy cô giới thiệu, xem bảng truyền thống và tư liệu của trường",
+      "B": "Tự đoán theo lời kể vui của bạn trong lớp",
+      "C": "Chỉ nhìn màu sơn cổng trường để suy ra lịch sử",
+      "D": "Nghe một người lạ trước cổng trường rồi ghi lại"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 13,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Bầu trời ban đêm",
+    "source_unit": "Trái Đất và bầu trời",
+    "source_lesson": "Bầu trời ban đêm",
+    "skill_tag": [
+      "astronomy",
+      "observation"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Đặc điểm nào thường đúng khi quan sát bầu trời ban đêm?",
+    "options": {
+      "A": "Có thể nhìn thấy Mặt Trăng và nhiều ngôi sao khi trời quang",
+      "B": "Mặt Trời xuất hiện sáng rõ như ban ngày",
+      "C": "Mọi đám mây đều biến mất hoàn toàn",
+      "D": "Các vì sao đứng yên nên không thay đổi vị trí biểu kiến"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 14,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Điều kiện sống của động vật",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Nhu cầu sống của động vật",
+    "skill_tag": [
+      "biology",
+      "inference"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Nếu bể cá lâu ngày không được thay nước và cho ăn đúng cách, điều gì dễ xảy ra nhất?",
+    "options": {
+      "A": "Cá yếu đi vì môi trường sống không còn phù hợp",
+      "B": "Cá sẽ tự tìm đường ra ao hồ khác",
+      "C": "Cá lớn nhanh hơn vì nước đục giữ ấm tốt",
+      "D": "Cá không bị ảnh hưởng vì chỉ cần có bể kính"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 15,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Giữ vệ sinh trường học",
+    "source_unit": "Trường học",
+    "source_lesson": "Giữ vệ sinh trường học",
+    "skill_tag": [
+      "community",
+      "behavior"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Việc nào góp phần giữ vệ sinh trường học bền vững hơn cả?",
+    "options": {
+      "A": "Bỏ rác đúng nơi quy định và nhắc bạn cùng thực hiện",
+      "B": "Chỉ dọn sạch chỗ của mình còn sân trường để cô lao công lo",
+      "C": "Đợi đến cuối tuần mới gom rác một lần",
+      "D": "Thấy rác ít nên có thể bỏ tạm dưới gầm bàn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 16,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Luyện tập và nghỉ ngơi",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Hoạt động nghỉ ngơi và vui chơi",
+    "skill_tag": [
+      "health",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Vì sao học sinh không nên vừa ăn xong đã chạy nhảy mạnh liên tục?",
+    "options": {
+      "A": "Cơ thể cần thời gian tiêu hoá thức ăn",
+      "B": "Vì chạy chỉ dành cho buổi tối",
+      "C": "Vì sau ăn xong cơ thể không cần vận động nữa",
+      "D": "Vì vận động làm thức ăn biến mất hoàn toàn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 17,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
+    "type": "single_choice",
+    "topic": "Ngày và đêm",
+    "source_unit": "Trái Đất và bầu trời",
+    "source_lesson": "Ngày và đêm",
+    "skill_tag": [
+      "astronomy",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Hiện tượng ngày và đêm lặp lại có liên quan trực tiếp nhất đến điều nào?",
+    "options": {
+      "A": "Trái Đất tự quay quanh mình",
+      "B": "Mặt Trăng che khuất Mặt Trời mỗi tối",
+      "C": "Các ngôi sao thay nhau toả sáng",
+      "D": "Mây di chuyển quanh bầu trời"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 18,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 3,
+    "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
+    "subject": "Tự nhiên và Xã hội",
     "topic": "Bộ phận của động vật",
     "source_unit": "Thực vật và động vật",
     "source_lesson": "Bài 15. Một số bộ phận của động vật và chức năng của chúng",
@@ -35,12 +656,13 @@ export default [
       "Giúp bơi",
       "Giúp di chuyển trên cạn"
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 1
+    "number": 19,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 3,
@@ -63,12 +685,18 @@ export default [
       "D": "Chỉ treo khẩu hiệu mà không tham gia việc gì"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 2
+    "number": 20,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -91,12 +719,18 @@ export default [
       "D": "Chế tạo linh kiện điện tử hàng loạt"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 3
+    "number": 21,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -114,17 +748,23 @@ export default [
     "question": "Mẹ đưa Mai đến thăm em gái của bà ngoại. Mai nên xưng hô phù hợp nhất với người đó là:",
     "options": {
       "A": "Bà",
-      "B": "Dì hoặc bà con bên ngoại tuỳ cách xưng hô gia đình",
-      "C": "Cô giáo",
-      "D": "Bạn"
+      "B": "Ông",
+      "C": "Dì hoặc bà con bên ngoại tuỳ cách xưng hô gia đình",
+      "D": "Bác"
     },
-    "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 4
+    "number": 22,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 3,
@@ -147,12 +787,18 @@ export default [
       "D": "Vì lửa không thể vào phòng kín"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 5
+    "number": 23,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -175,12 +821,18 @@ export default [
       "D": "Vì các ngôi sao tắt hết vào ban đêm"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 6
+    "number": 24,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -203,12 +855,18 @@ export default [
       "D": "Rủ thêm bạn khác tham gia để nhanh hết giờ"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 7,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 25,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -231,12 +889,18 @@ export default [
       "D": "Thân cây luôn có nhiệm vụ hút nước thay rễ"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 8,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 26,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -259,12 +923,18 @@ export default [
       "D": "Nhịn ăn sáng để tối ăn bù"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 9,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 27,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -298,12 +968,13 @@ export default [
       "Di tích lịch sử - văn hoá",
       "Cảnh quan thiên nhiên"
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 10,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 28,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 3,
@@ -326,12 +997,18 @@ export default [
       "D": "Rủ bạn sang chơi để đỡ buồn"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 11,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 29,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -371,12 +1048,13 @@ export default [
       2,
       4
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 12,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 30,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 3,
@@ -399,12 +1077,18 @@ export default [
       "D": "Cho thú ăn theo sở thích của mình"
     },
     "correct_answer": "C",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 13,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 31,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -421,18 +1105,24 @@ export default [
     "type": "single_choice",
     "question": "Buổi sáng, Mai đứng ở sân trường và quay mặt về phía Mặt Trời mọc. Khi đó bên tay trái của Mai là hướng nào?",
     "options": {
-      "A": "Bắc",
+      "A": "Đông",
       "B": "Nam",
-      "C": "Đông",
+      "C": "Bắc",
       "D": "Tây"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 14,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 32,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 3,
@@ -455,12 +1145,18 @@ export default [
       "D": "Trò chuyện với người thân"
     },
     "correct_answer": "C",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 15,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 33,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -483,12 +1179,18 @@ export default [
       "D": "Tất cả đều là họ hàng"
     },
     "correct_answer": "C",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 16,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 34,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -511,12 +1213,18 @@ export default [
       "D": "Vận tải hàng không"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 17,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 35,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -539,12 +1247,18 @@ export default [
       "D": "Nhiệt độ chỉ phụ thuộc vào số lượng nhà cao tầng"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 18,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 36,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 3,
@@ -567,16 +1281,22 @@ export default [
       "D": "Các trò chơi điện tử đang phổ biến"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 19,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 37,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 20,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 38,
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
@@ -586,18 +1306,25 @@ export default [
     "question": "Trong các địa điểm sau, địa điểm nào là di tích lịch sử - văn hoá?",
     "options": {
       "A": "Một ngôi chùa cổ gắn với sự kiện lịch sử của địa phương",
-      "B": "Một cánh đồng lúa mới cấy",
-      "C": "Một cửa hàng tạp hoá ở khu phố"
+      "B": "Tin đồn truyền miệng chưa kiểm chứng",
+      "C": "Chi tiết thêm thắt cho hấp dẫn hơn sự thật",
+      "D": "Tự ý chạm vào hiện vật để quan sát gần"
     },
     "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 21,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 39,
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
@@ -626,12 +1353,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 22,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 40,
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
@@ -640,19 +1368,25 @@ export default [
     "type": "single_choice",
     "question": "Việc làm nào thể hiện ý thức giữ gìn cơ sở vật chất của trường?",
     "options": {
-      "A": "Khắc chữ lên bàn học",
-      "B": "Nhẹ nhàng khi sử dụng sách ở thư viện",
-      "C": "Vứt bừa bãi dụng cụ học tập của lớp"
+      "A": "Nhẹ nhàng khi sử dụng sách ở thư viện",
+      "B": "Xếp hàng, giữ trật tự và phối hợp với mọi người",
+      "C": "Tự ý làm theo ý mình dù ảnh hưởng người khác",
+      "D": "Chỉ tham gia hình thức mà không thực hiện việc chính"
     },
-    "correct_answer": "B",
+    "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 23,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 41,
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
@@ -661,19 +1395,26 @@ export default [
     "type": "single_choice",
     "question": "Khi phát hiện mùi khét và có khói bốc lên từ ổ điện trong nhà, em nên làm gì trước tiên?",
     "options": {
-      "A": "Báo ngay cho người lớn và tránh xa khu vực nguy hiểm",
-      "B": "Tự đổ nước vào ổ điện",
-      "C": "Dùng tay chạm vào ổ điện để kiểm tra"
+      "A": "Làm theo thói quen cho nhanh mà không cần kiểm tra độ an toàn",
+      "B": "Tự xử lí ngay khi chưa có người lớn hỗ trợ",
+      "C": "Đứng gần để quan sát kĩ hơn rồi quyết định sau",
+      "D": "Báo ngay cho người lớn và tránh xa khu vực nguy hiểm"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 24,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 42,
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
@@ -702,12 +1443,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 25,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 43,
     "grade": 3,
     "book": "Tự nhiên và Xã hội 3 - Kết nối tri thức",
     "subject": "Tự nhiên và Xã hội",
@@ -723,8 +1465,634 @@ export default [
     "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-fallback"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Bảo tồn di tích",
+    "source_unit": "Địa phương em",
+    "source_lesson": "Di sản ở địa phương",
+    "skill_tag": [
+      "heritage",
+      "behavior"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Việc nào vừa giúp tìm hiểu di tích vừa thể hiện sự tôn trọng?",
+    "options": {
+      "A": "Ghi chép, chụp ảnh đúng nơi cho phép và giữ gìn hiện vật",
+      "B": "Sờ tay liên tục vào đồ cổ để nhớ lâu hơn",
+      "C": "Tự ý mang theo một mảnh gốm nhỏ làm kỉ niệm",
+      "D": "Nói to và chạy nhảy trong khu thờ tự"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 44,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Duyên hải miền Trung",
+    "source_unit": "Duyên hải miền Trung",
+    "source_lesson": "Thiên nhiên miền Trung",
+    "skill_tag": [
+      "region",
+      "reasoning"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Vì sao nhiều tỉnh duyên hải miền Trung vừa phát triển đánh bắt, nuôi trồng thuỷ sản vừa cần chú ý phòng chống thiên tai?",
+    "options": {
+      "A": "Vì vùng giáp biển, giàu tiềm năng biển nhưng thường chịu bão và mưa lớn",
+      "B": "Vì vùng này quanh năm băng tuyết dày",
+      "C": "Vì hầu như không có sông và đầm phá",
+      "D": "Vì người dân chỉ sống bằng nghề rừng"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 45,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Đọc phương hướng trên bản đồ",
+    "source_unit": "Mở đầu",
+    "source_lesson": "Làm quen với phương tiện học tập môn Lịch sử và Địa lí",
+    "skill_tag": [
+      "map-reading",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi xem bản đồ có mũi tên chỉ hướng Bắc, khu vực bên phải bản đồ thường là hướng nào?",
+    "options": {
+      "A": "Đông",
+      "B": "Tây",
+      "C": "Nam",
+      "D": "Bắc"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 46,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Đọc trục thời gian",
+    "source_unit": "Mở đầu",
+    "source_lesson": "Phương tiện học tập",
+    "skill_tag": [
+      "history",
+      "tool-choice"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu một sự kiện nằm bên trái sự kiện khác trên cùng trục thời gian, điều đó thường cho biết:",
+    "options": {
+      "A": "Sự kiện đó xảy ra sớm hơn",
+      "B": "Sự kiện đó xảy ra ở phía tây hơn",
+      "C": "Sự kiện đó quan trọng hơn hẳn",
+      "D": "Sự kiện đó luôn kéo dài hơn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 47,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "matching",
+    "topic": "Ghép vùng với đặc điểm",
+    "source_unit": "Các vùng miền",
+    "source_lesson": "Bài về các vùng",
+    "skill_tag": [
+      "region",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép vùng với đặc điểm tiêu biểu nhất.",
+    "items": [
+      {
+        "label": "Tây Nguyên",
+        "correct_match": "Cao nguyên và cây công nghiệp lâu năm"
+      },
+      {
+        "label": "Đồng bằng Bắc Bộ",
+        "correct_match": "Châu thổ rộng, có hệ thống đê"
+      },
+      {
+        "label": "Nam Bộ",
+        "correct_match": "Kênh rạch khá dày ở nhiều nơi"
+      }
+    ],
+    "option_pool": [
+      "Cao nguyên và cây công nghiệp lâu năm",
+      "Châu thổ rộng, có hệ thống đê",
+      "Kênh rạch khá dày ở nhiều nơi"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 48,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Học tập từ bản đồ và tranh ảnh",
+    "source_unit": "Mở đầu",
+    "source_lesson": "Phương tiện học tập",
+    "skill_tag": [
+      "map-reading",
+      "tool-choice"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn biết một vùng có nhiều núi hay đồng bằng, em nên ưu tiên xem loại bản đồ nào hơn?",
+    "options": {
+      "A": "Bản đồ địa hình",
+      "B": "Trục thời gian",
+      "C": "Bản đồ lễ hội",
+      "D": "Sổ liên lạc"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 49,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Lễ hội truyền thống",
+    "source_unit": "Địa phương em",
+    "source_lesson": "Văn hoá truyền thống địa phương",
+    "skill_tag": [
+      "culture",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi tham gia lễ hội truyền thống ở địa phương, học sinh nên ứng xử thế nào?",
+    "options": {
+      "A": "Ăn mặc gọn gàng, giữ trật tự và tìm hiểu ý nghĩa lễ hội",
+      "B": "Chen lấn để đứng gần nơi hành lễ nhất",
+      "C": "Đùa nghịch ở khu vực linh thiêng cho vui",
+      "D": "Xả rác vì nghĩ đã có người dọn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 50,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Mối quan hệ giữa thiên nhiên và sản xuất",
+    "source_unit": "Nhiều vùng",
+    "source_lesson": "Các bài về vùng miền",
+    "skill_tag": [
+      "cause-effect",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Kết luận nào đúng nhất về mối quan hệ giữa đặc điểm tự nhiên và hoạt động sản xuất ở các vùng?",
+    "options": {
+      "A": "Điều kiện tự nhiên khác nhau thường làm cho sản xuất mỗi vùng có nét riêng",
+      "B": "Mọi vùng đều sản xuất giống nhau nên không cần tìm hiểu tự nhiên",
+      "C": "Sản xuất hoàn toàn không phụ thuộc tài nguyên và khí hậu",
+      "D": "Chỉ con người quyết định, thiên nhiên không ảnh hưởng gì"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 51,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Nam Bộ",
+    "source_unit": "Nam Bộ",
+    "source_lesson": "Sông ngòi và hoạt động sản xuất",
+    "skill_tag": [
+      "region",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Đặc điểm nào thường thấy ở nhiều nơi thuộc Nam Bộ?",
+    "options": {
+      "A": "Mạng lưới sông ngòi, kênh rạch khá dày",
+      "B": "Địa hình núi cao hiểm trở chiếm chủ yếu",
+      "C": "Khí hậu lạnh giá quanh năm",
+      "D": "Ruộng bậc thang là kiểu canh tác phổ biến nhất"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 52,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Nguồn tư liệu lịch sử",
+    "source_unit": "Địa phương em",
+    "source_lesson": "Lịch sử và văn hoá truyền thống địa phương em",
+    "skill_tag": [
+      "history",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Để biết chính xác ngôi đình cổ ở địa phương được xây từ thời nào, cách làm nào hợp lí nhất?",
+    "options": {
+      "A": "Đối chiếu tư liệu, hỏi người hướng dẫn và xem thông tin chính thức tại di tích",
+      "B": "Chọn năm bất kì theo cảm nhận của mình",
+      "C": "Nghe kể miệng một lần rồi khẳng định ngay",
+      "D": "Chỉ xem ảnh trên mạng mà không kiểm tra nguồn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 53,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "ordering",
+    "topic": "Quy trình tìm hiểu địa phương",
+    "source_unit": "Địa phương em",
+    "source_lesson": "Tìm hiểu lịch sử và văn hoá địa phương",
+    "skill_tag": [
+      "application",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp các việc sau để tìm hiểu một di tích ở địa phương.",
+    "items": [
+      {
+        "label": "Xác định di tích cần tìm hiểu",
+        "correct_position": 1
+      },
+      {
+        "label": "Thu thập thông tin từ nguồn đáng tin cậy",
+        "correct_position": 2
+      },
+      {
+        "label": "Ghi chép, trình bày kết quả",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 54,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "So sánh các vùng",
+    "source_unit": "Nhiều vùng",
+    "source_lesson": "Các bài về vùng miền",
+    "skill_tag": [
+      "comparison",
+      "region"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nhận xét nào hợp lí khi so sánh Đồng bằng Bắc Bộ và Tây Nguyên?",
+    "options": {
+      "A": "Một bên nổi bật đồng bằng châu thổ, một bên nổi bật cao nguyên",
+      "B": "Cả hai đều chủ yếu là vùng biển đảo",
+      "C": "Cả hai đều không có hoạt động nông nghiệp",
+      "D": "Tây Nguyên là vùng đồng bằng thấp rộng hơn Bắc Bộ"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 55,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Tây Nguyên",
+    "source_unit": "Tây Nguyên",
+    "source_lesson": "Đất đỏ ba dan và sản xuất",
+    "skill_tag": [
+      "region",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Cây trồng nào thường gắn nhiều với vùng Tây Nguyên hơn cả?",
+    "options": {
+      "A": "Cà phê",
+      "B": "Lúa nước trên đồng bằng châu thổ rộng lớn",
+      "C": "Dừa nước ở vùng ngập mặn",
+      "D": "Cói trồng ven biển"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 56,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Thăng Long - Hà Nội",
+    "source_unit": "Đồng bằng Bắc Bộ",
+    "source_lesson": "Thăng Long - Hà Nội",
+    "skill_tag": [
+      "history",
+      "urban-history"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ý nào thể hiện đúng vai trò của Hà Nội trong hiện tại?",
+    "options": {
+      "A": "Là trung tâm chính trị, văn hoá và có nhiều giá trị lịch sử tiêu biểu",
+      "B": "Chỉ là nơi lưu giữ di tích, không có vai trò phát triển hiện nay",
+      "C": "Là thành phố duy nhất của đồng bằng Bắc Bộ",
+      "D": "Không có hoạt động giáo dục và khoa học"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 57,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Trung du và miền núi Bắc Bộ",
+    "source_unit": "Trung du và miền núi Bắc Bộ",
+    "source_lesson": "Thiên nhiên và hoạt động sản xuất",
+    "skill_tag": [
+      "region",
+      "comparison"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Điều kiện nào góp phần làm vùng trung du và miền núi Bắc Bộ phát triển cây chè ở nhiều nơi?",
+    "options": {
+      "A": "Địa hình đồi núi và khí hậu phù hợp ở nhiều khu vực",
+      "B": "Có nhiều bãi biển cát trắng kéo dài",
+      "C": "Sông ngòi ít nên cây công nghiệp phát triển hơn",
+      "D": "Đồng bằng rộng lớn bằng phẳng chiếm chủ yếu"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 58,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Đồng bằng Bắc Bộ",
+    "source_unit": "Đồng bằng Bắc Bộ",
+    "source_lesson": "Đê điều và sản xuất",
+    "skill_tag": [
+      "region",
+      "cause-effect"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Hệ thống đê ở Đồng bằng Bắc Bộ có vai trò nổi bật nào?",
+    "options": {
+      "A": "Giúp hạn chế tác hại của lũ và bảo vệ sản xuất, đời sống",
+      "B": "Giúp biển lùi xa hoàn toàn khỏi đất liền",
+      "C": "Làm cho mọi con sông ngừng chảy",
+      "D": "Thay thế hoàn toàn cho hệ thống đường giao thông"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 59,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Sử dụng kí hiệu bản đồ",
+    "source_unit": "Mở đầu",
+    "source_lesson": "Làm quen với phương tiện học tập môn Lịch sử và Địa lí",
+    "skill_tag": [
+      "map-reading",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Muốn hiểu các hình vẽ nhỏ trên bản đồ thể hiện điều gì, em cần chú ý nhất đến phần nào?",
+    "options": {
+      "A": "Bảng chú giải",
+      "B": "Tên người vẽ bản đồ",
+      "C": "Màu giấy in bản đồ",
+      "D": "Khung viền ngoài bản đồ"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 60,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Vai trò sông ngòi",
+    "source_unit": "Đồng bằng Bắc Bộ; Nam Bộ",
+    "source_lesson": "Các bài về sông ngòi",
+    "skill_tag": [
+      "cause-effect",
+      "region"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Sông ngòi có ý nghĩa lớn đối với sản xuất nông nghiệp chủ yếu vì:",
+    "options": {
+      "A": "Cung cấp nước, phù sa và thuận lợi cho giao thông ở nhiều nơi",
+      "B": "Làm cho mọi vùng có khí hậu giống hệt nhau",
+      "C": "Ngăn hoàn toàn thiên tai xảy ra",
+      "D": "Chỉ dùng để trang trí cảnh quan"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 61,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -747,12 +2115,18 @@ export default [
       "D": "Leo trèo lên khu vực bảo vệ để chụp ảnh"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 26
+    "number": 62,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -769,18 +2143,24 @@ export default [
     "type": "single_choice",
     "question": "Muốn biết thứ tự trước sau của ba sự kiện lịch sử, em nên ưu tiên sử dụng phương tiện nào?",
     "options": {
-      "A": "Trục thời gian",
-      "B": "Bản đồ địa hình",
-      "C": "Bảng nhân chia",
-      "D": "Kính lúp"
+      "A": "Bản đồ hành chính Việt Nam",
+      "B": "Trục thời gian",
+      "C": "Bản đồ địa hình",
+      "D": "Quả địa cầu"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "B",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 27
+    "number": 63,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -798,17 +2178,23 @@ export default [
     "question": "Để giới thiệu đúng về một di tích ở địa phương, nguồn thông tin nào đáng tin cậy hơn cả?",
     "options": {
       "A": "Bảng giới thiệu tại di tích và tư liệu chính thống của địa phương",
-      "B": "Tin đồn trên mạng không rõ nguồn",
-      "C": "Lời kể thêm bớt cho hấp dẫn",
-      "D": "Ý kiến của người chưa từng đến đó"
+      "B": "Đồng bằng Bắc Bộ",
+      "C": "Tây Nguyên",
+      "D": "Nam Bộ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 28
+    "number": 64,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -831,12 +2217,18 @@ export default [
       "D": "Nam Bộ không có sông ngòi"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 29
+    "number": 65,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -853,18 +2245,24 @@ export default [
     "type": "single_choice",
     "question": "Điểm nào cho thấy Hà Nội vừa mang giá trị lịch sử lâu đời vừa là trung tâm phát triển hiện nay?",
     "options": {
-      "A": "Có nhiều di tích lịch sử và đồng thời là Thủ đô của cả nước",
-      "B": "Chỉ nổi tiếng vì có nhiều núi cao",
-      "C": "Là nơi duy nhất có trường học",
-      "D": "Không có hoạt động văn hoá nào"
+      "A": "Nam Bộ",
+      "B": "Đồng bằng Bắc Bộ",
+      "C": "Tây Nguyên",
+      "D": "Có nhiều di tích lịch sử và đồng thời là Thủ đô của cả nước"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 30
+    "number": 66,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -887,12 +2285,18 @@ export default [
       "D": "Ngăn hoàn toàn mọi hoạt động giao thông"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 31
+    "number": 67,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -915,12 +2319,18 @@ export default [
       "D": "Có nhiều rừng rậm, ít ánh nắng"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 32,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 68,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -943,12 +2353,18 @@ export default [
       "D": "Địa phương đó chắc chắn không có giao thông đường thuỷ"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 33,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 69,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -971,12 +2387,18 @@ export default [
       "D": "Làm cho mùa đông nóng hơn"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 34,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 70,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -999,12 +2421,18 @@ export default [
       "D": "Vì đường bộ bị cấm hoàn toàn"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 35,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 71,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -1027,12 +2455,18 @@ export default [
       "D": "Đồng bằng sông Hồng"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 36,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 72,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -1049,18 +2483,24 @@ export default [
     "type": "single_choice",
     "question": "Một bạn nói: 'Em muốn tham quan một địa điểm vừa giúp hiểu sự sáng tạo trong kháng chiến, vừa gắn với vùng đất Thành phố Hồ Chí Minh.' Bạn ấy nên đến đâu?",
     "options": {
-      "A": "Văn Miếu - Quốc Tử Giám",
+      "A": "Cách mạng tháng Tám năm 1945",
       "B": "Địa đạo Củ Chi",
-      "C": "Cố đô Huế",
-      "D": "Hồ Gươm"
+      "C": "Chiến thắng Điện Biên Phủ năm 1954",
+      "D": "Chiến dịch Hồ Chí Minh năm 1975"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 37,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 73,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -1083,12 +2523,18 @@ export default [
       "D": "Khí hậu quanh năm băng giá"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 38,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 74,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -1105,18 +2551,24 @@ export default [
     "type": "single_choice",
     "question": "Điểm giống nhau nổi bật giữa Cố đô Huế và Phố cổ Hội An là gì?",
     "options": {
-      "A": "Đều là di sản có giá trị lịch sử, văn hoá cần được bảo tồn",
-      "B": "Đều là cao nguyên trồng cà phê lớn",
-      "C": "Đều nằm sâu trong vùng núi cao",
-      "D": "Đều chỉ có ý nghĩa đối với riêng một tỉnh"
+      "A": "Đồng bằng Bắc Bộ",
+      "B": "Đều là di sản có giá trị lịch sử, văn hoá cần được bảo tồn",
+      "C": "Tây Nguyên",
+      "D": "Nam Bộ"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "B",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 39,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 75,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -1134,17 +2586,23 @@ export default [
     "question": "Việc người dân cả nước hướng về lễ Giỗ Tổ Hùng Vương cho thấy điều gì nổi bật nhất?",
     "options": {
       "A": "Sự nhớ ơn cội nguồn dân tộc",
-      "B": "Mọi lễ hội đều chỉ để vui chơi",
-      "C": "Người Việt chỉ quan tâm đến vùng núi",
-      "D": "Đền Hùng là nơi buôn bán lớn"
+      "B": "Đồng bằng Bắc Bộ",
+      "C": "Tây Nguyên",
+      "D": "Nam Bộ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 40,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 76,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -1161,18 +2619,24 @@ export default [
     "type": "single_choice",
     "question": "Lễ hội Cồng chiêng Tây Nguyên không chỉ là một hoạt động vui chơi mà còn góp phần:",
     "options": {
-      "A": "Giữ gìn bản sắc văn hoá của cộng đồng",
-      "B": "Làm cho khí hậu mát hơn",
-      "C": "Thay thế hoàn toàn việc học ở trường",
-      "D": "Chứng minh mọi nơi đều có cùng phong tục"
+      "A": "Đồng bằng Bắc Bộ",
+      "B": "Tây Nguyên",
+      "C": "Nam Bộ",
+      "D": "Giữ gìn bản sắc văn hoá của cộng đồng"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 41,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 77,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -1189,18 +2653,24 @@ export default [
     "type": "single_choice",
     "question": "Khi muốn biết một kí hiệu màu xanh trên bản đồ chỉ đối tượng nào, em nên thực hiện trước tiên bước nào?",
     "options": {
-      "A": "Đo khoảng cách từ kí hiệu đến mép giấy",
-      "B": "Đọc bảng chú giải của bản đồ",
-      "C": "Tìm ngay tên tỉnh gần đó",
-      "D": "Nhìn màu bìa sách"
+      "A": "Đọc bảng chú giải của bản đồ",
+      "B": "Đồng bằng Bắc Bộ",
+      "C": "Tây Nguyên",
+      "D": "Nam Bộ"
     },
-    "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 42,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 78,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -1217,22 +2687,28 @@ export default [
     "type": "single_choice",
     "question": "Một bạn mô tả quê mình có làng nghề truyền thống, lễ hội mùa xuân và nhiều ngôi chùa cổ. Bạn ấy nhiều khả năng đang nói về vùng nào?",
     "options": {
-      "A": "Đồng bằng Bắc Bộ",
+      "A": "Quần đảo Trường Sa",
       "B": "Tây Nguyên",
-      "C": "Quần đảo Trường Sa",
+      "C": "Đồng bằng Bắc Bộ",
       "D": "Cao nguyên đá Đồng Văn"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 43,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 79,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 44,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 80,
     "grade": 4,
     "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1266,12 +2742,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 45,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 81,
     "grade": 4,
     "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1300,12 +2777,13 @@ export default [
     "type": "matching",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 46,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 82,
     "grade": 4,
     "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1314,19 +2792,26 @@ export default [
     "type": "single_choice",
     "question": "Nội dung nào giúp em hiểu rõ hơn về lịch sử và văn hoá truyền thống của địa phương?",
     "options": {
-      "A": "Tìm hiểu lễ hội, di tích và nghề truyền thống ở nơi em sống",
-      "B": "Chỉ xem giá đồ chơi trên mạng",
-      "C": "Chỉ học thuộc bảng cửu chương"
+      "A": "Tin đồn truyền miệng chưa kiểm chứng",
+      "B": "Tìm hiểu lễ hội, di tích và nghề truyền thống ở nơi em sống",
+      "C": "Chi tiết thêm thắt cho hấp dẫn hơn sự thật",
+      "D": "Tự ý chạm vào hiện vật để quan sát gần"
     },
-    "correct_answer": "A",
+    "correct_answer": "B",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 47,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 83,
     "grade": 4,
     "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1335,19 +2820,26 @@ export default [
     "type": "single_choice",
     "question": "Khi giới thiệu về địa phương em với bạn bè, nội dung nào nên được nhắc đến?",
     "options": {
-      "A": "Thiên nhiên, sản vật, di tích và nét văn hoá tiêu biểu",
-      "B": "Chỉ tên các trò chơi điện tử em thích",
-      "C": "Chỉ màu sơn của ngôi nhà em"
+      "A": "Chiến dịch Hồ Chí Minh năm 1975",
+      "B": "Chiến thắng Điện Biên Phủ năm 1954",
+      "C": "Cách mạng tháng Tám năm 1945",
+      "D": "Thiên nhiên, sản vật, di tích và nét văn hoá tiêu biểu"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 48,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 84,
     "grade": 4,
     "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1356,19 +2848,26 @@ export default [
     "type": "single_choice",
     "question": "Để góp phần giữ gìn các di tích lịch sử - văn hoá, em nên:",
     "options": {
-      "A": "Vẽ bậy và chạm khắc lên tường di tích",
+      "A": "Tin đồn truyền miệng chưa kiểm chứng",
       "B": "Tuân thủ nội quy và giữ vệ sinh khi tham quan",
-      "C": "Mang hiện vật ở di tích về nhà"
+      "C": "Chi tiết thêm thắt cho hấp dẫn hơn sự thật",
+      "D": "Tự ý chạm vào hiện vật để quan sát gần"
     },
     "correct_answer": "B",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 49,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 85,
     "grade": 4,
     "book": "Lịch sử và Địa lí 4 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1377,15 +2876,643 @@ export default [
     "type": "single_choice",
     "question": "Hoạt động sản xuất nào phổ biến ở vùng Trung du và miền núi Bắc Bộ?",
     "options": {
-      "A": "Trồng cây chè, cây ăn quả và khai thác khoáng sản",
-      "B": "Nuôi tôm nước lợ trên diện rộng",
-      "C": "Làm muối ở ven biển"
+      "A": "Đồng bằng châu thổ rộng",
+      "B": "Cao nguyên đất đỏ ba dan",
+      "C": "Trồng cây chè, cây ăn quả và khai thác khoáng sản",
+      "D": "Kênh rạch dày đặc"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Bài học từ lịch sử",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Nhiều bài",
+    "skill_tag": [
+      "history",
+      "reasoning"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Học về các nhân vật lịch sử tiêu biểu giúp học sinh rút ra điều gì thiết thực nhất?",
+    "options": {
+      "A": "Biết trân trọng quá khứ và học những phẩm chất tốt đẹp để vận dụng vào hiện tại",
+      "B": "Chỉ cần nhớ tên nhân vật mà không cần hiểu việc làm",
+      "C": "Lịch sử chỉ có ý nghĩa trong giờ kiểm tra",
+      "D": "Người xưa giỏi nên người nay không cần cố gắng"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 86,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Biển đảo và môi trường",
+    "source_unit": "Đất nước và con người Việt Nam",
+    "source_lesson": "Biển, đảo Việt Nam",
+    "skill_tag": [
+      "marine",
+      "environment"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu rác thải nhựa trôi ra biển ngày càng nhiều, hậu quả dễ thấy nhất là gì?",
+    "options": {
+      "A": "Sinh vật biển và môi trường biển bị ảnh hưởng xấu",
+      "B": "Nguồn lợi thuỷ sản tự tăng lên",
+      "C": "Biển sẽ sạch hơn vì có thêm vật nổi",
+      "D": "Không liên quan đến hoạt động của con người"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 87,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Biển đảo Việt Nam",
+    "source_unit": "Đất nước và con người Việt Nam",
+    "source_lesson": "Biển, đảo Việt Nam",
+    "skill_tag": [
+      "marine",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ý nào vừa thể hiện giá trị kinh tế vừa thể hiện giá trị chiến lược của biển đảo?",
+    "options": {
+      "A": "Biển đảo cung cấp tài nguyên, tạo điều kiện giao thương và gắn với bảo vệ chủ quyền",
+      "B": "Biển đảo chỉ có ý nghĩa du lịch nên ít liên quan đến quốc gia",
+      "C": "Biển đảo càng xa dân cư thì càng không cần quan tâm",
+      "D": "Khai thác biển là việc riêng của ngư dân, không liên quan môi trường"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 88,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "ordering",
+    "topic": "Các bước tìm hiểu một quốc gia",
+    "source_unit": "Tìm hiểu thế giới",
+    "source_lesson": "Một số quốc gia trên thế giới",
+    "skill_tag": [
+      "application",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp các việc sau khi tìm hiểu một quốc gia trên thế giới.",
+    "items": [
+      {
+        "label": "Xác định vị trí trên bản đồ",
+        "correct_position": 1
+      },
+      {
+        "label": "Tìm hiểu đặc điểm tiêu biểu về tự nhiên, con người",
+        "correct_position": 2
+      },
+      {
+        "label": "So sánh, rút ra điều em học được",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 89,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Chiến dịch Hồ Chí Minh",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Chiến dịch Hồ Chí Minh năm 1975",
+    "skill_tag": [
+      "history",
+      "modern-history"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ý nghĩa nổi bật của Chiến dịch Hồ Chí Minh là:",
+    "options": {
+      "A": "Góp phần giải phóng hoàn toàn miền Nam, thống nhất đất nước",
+      "B": "Mở đầu thời kì Bắc thuộc",
+      "C": "Thiết lập hệ thống đê điều ở đồng bằng Bắc Bộ",
+      "D": "Đánh dấu sự ra đời của nhà nước Văn Lang"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 90,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Chung tay xây dựng thế giới",
+    "source_unit": "Chung tay xây dựng thế giới",
+    "source_lesson": "Bảo vệ môi trường và hợp tác quốc tế",
+    "skill_tag": [
+      "global-citizenship",
+      "behavior"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Việc nào thể hiện trách nhiệm của học sinh đối với môi trường sống chung?",
+    "options": {
+      "A": "Tiết kiệm điện nước, phân loại rác và tham gia hoạt động xanh",
+      "B": "Dùng nhiều đồ nhựa một lần vì tiện hơn",
+      "C": "Cho rằng bảo vệ môi trường chỉ là việc của nhà máy",
+      "D": "Đốt rác ngoài trời để đỡ tốn công thu gom"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 91,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Điện Biên Phủ",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Chiến thắng Điện Biên Phủ năm 1954",
+    "skill_tag": [
+      "history",
+      "modern-history"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi nói Chiến thắng Điện Biên Phủ có ý nghĩa lớn, người ta muốn nhấn mạnh điều gì?",
+    "options": {
+      "A": "Đây là thắng lợi quan trọng, cổ vũ mạnh mẽ phong trào giải phóng dân tộc",
+      "B": "Đây chỉ là một trận nhỏ, ít ảnh hưởng",
+      "C": "Đây là sự kiện chỉ có ý nghĩa với riêng một địa phương",
+      "D": "Đây là sự kiện diễn ra sau năm 1975"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 92,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "matching",
+    "topic": "Ghép sự kiện với ý nghĩa",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Một số sự kiện lớn",
+    "skill_tag": [
+      "history",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép sự kiện với ý nghĩa gần đúng nhất.",
+    "items": [
+      {
+        "label": "Cách mạng tháng Tám 1945",
+        "correct_match": "Mở ra nền độc lập mới cho dân tộc"
+      },
+      {
+        "label": "Điện Biên Phủ 1954",
+        "correct_match": "Thắng lợi lớn trong kháng chiến chống Pháp"
+      },
+      {
+        "label": "Chiến dịch Hồ Chí Minh 1975",
+        "correct_match": "Giải phóng miền Nam, thống nhất đất nước"
+      }
+    ],
+    "option_pool": [
+      "Mở ra nền độc lập mới cho dân tộc",
+      "Thắng lợi lớn trong kháng chiến chống Pháp",
+      "Giải phóng miền Nam, thống nhất đất nước"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 93,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Khởi nghĩa và chiến thắng trong lịch sử dân tộc",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Các bài về các cuộc kháng chiến",
+    "skill_tag": [
+      "history",
+      "comparison"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Điểm chung nổi bật của nhiều chiến thắng lớn trong lịch sử dân tộc là gì?",
+    "options": {
+      "A": "Đều thể hiện tinh thần đoàn kết và ý chí bảo vệ đất nước",
+      "B": "Đều diễn ra hoàn toàn trên biển",
+      "C": "Đều kết thúc bằng việc nhân dân rời bỏ quê hương",
+      "D": "Đều không có vai trò của nhân dân"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 94,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Quan hệ với các nước láng giềng",
+    "source_unit": "Các nước láng giềng",
+    "source_lesson": "Lào, Campuchia, Trung Quốc và ASEAN",
+    "skill_tag": [
+      "regional-cooperation",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong giao lưu với bạn bè đến từ các nước láng giềng, cách ứng xử nào phù hợp nhất?",
+    "options": {
+      "A": "Tôn trọng sự khác biệt và chủ động học hỏi điều hay",
+      "B": "Áp đặt thói quen của mình cho mọi người",
+      "C": "Trêu chọc vì khác ngôn ngữ",
+      "D": "Từ chối tìm hiểu vì nghĩ không cần thiết"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 95,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "So sánh sự kiện lịch sử",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Các mốc lịch sử hiện đại",
+    "skill_tag": [
+      "comparison",
+      "history"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi so sánh Cách mạng tháng Tám 1945 và Chiến dịch Hồ Chí Minh 1975, nhận định nào đúng nhất?",
+    "options": {
+      "A": "Cả hai đều là mốc rất quan trọng trong quá trình giành và giữ độc lập dân tộc",
+      "B": "Cả hai đều diễn ra trước năm 1900",
+      "C": "Cả hai đều chỉ tác động tới một tỉnh",
+      "D": "Cả hai đều không liên quan đến việc thống nhất đất nước"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 96,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Tìm hiểu thế giới",
+    "source_unit": "Tìm hiểu thế giới",
+    "source_lesson": "Bản đồ thế giới và châu lục",
+    "skill_tag": [
+      "map-thinking",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn biết một nước thuộc châu lục nào, em cần tra cứu phù hợp nhất trên:",
+    "options": {
+      "A": "Bản đồ thế giới hoặc quả địa cầu",
+      "B": "Trục thời gian lịch sử Việt Nam",
+      "C": "Sổ điểm cá nhân",
+      "D": "Bảng cửu chương"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 97,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Tinh thần yêu nước",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Nhiều bài",
+    "skill_tag": [
+      "history",
+      "citizenship"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Biểu hiện nào gần nhất với việc tiếp nối truyền thống yêu nước trong đời sống học sinh hôm nay?",
+    "options": {
+      "A": "Chăm học, có trách nhiệm và góp sức xây dựng cộng đồng",
+      "B": "Chỉ thuộc tên anh hùng lịch sử nhưng không rèn luyện bản thân",
+      "C": "Cho rằng việc xây dựng đất nước là của riêng người lớn",
+      "D": "Tự ý làm theo cảm tính, không cần kỉ luật"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 98,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Vai trò của bản đồ hành chính",
+    "source_unit": "Đất nước và con người Việt Nam",
+    "source_lesson": "Bản đồ hành chính Việt Nam",
+    "skill_tag": [
+      "map-thinking",
+      "tool-choice"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn biết tỉnh nào giáp biển và tỉnh nào không giáp biển, em nên dùng nguồn nào hiệu quả nhất?",
+    "options": {
+      "A": "Bản đồ hành chính kết hợp quan sát vị trí lãnh thổ",
+      "B": "Một bài hát về quê hương",
+      "C": "Lời đoán của bạn cùng lớp",
+      "D": "Bảng điểm môn học"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 99,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Vị trí lãnh thổ Việt Nam",
+    "source_unit": "Đất nước và con người Việt Nam",
+    "source_lesson": "Vị trí địa lí Việt Nam",
+    "skill_tag": [
+      "map-thinking",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Vì sao vị trí địa lí của Việt Nam thuận lợi cho giao lưu kinh tế với nhiều nước?",
+    "options": {
+      "A": "Vì nằm ở khu vực Đông Nam Á, gần các tuyến giao thông biển và khu vực phát triển năng động",
+      "B": "Vì nằm tách biệt hoàn toàn khỏi biển và các nước xung quanh",
+      "C": "Vì chỉ tiếp giáp với một quốc gia duy nhất",
+      "D": "Vì lãnh thổ chỉ gồm các đảo nhỏ giữa đại dương"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 100,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Các quốc gia cổ trên lãnh thổ Việt Nam",
+    "source_unit": "Những quốc gia đầu tiên trên lãnh thổ Việt Nam",
+    "source_lesson": "Phù Nam, Chăm-pa",
+    "skill_tag": [
+      "history",
+      "comparison"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Việc tìm hiểu các quốc gia cổ giúp học sinh nhận ra điều gì?",
+    "options": {
+      "A": "Lịch sử và văn hoá trên lãnh thổ Việt Nam có quá trình hình thành phong phú, đa dạng",
+      "B": "Lãnh thổ nước ta xưa nay chỉ có một cộng đồng duy nhất tồn tại",
+      "C": "Các quốc gia cổ không để lại dấu tích nào cho hiện tại",
+      "D": "Lịch sử Việt Nam chỉ gắn với thời hiện đại"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 101,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Cách mạng tháng Tám và Quốc khánh",
+    "source_unit": "Xây dựng và bảo vệ đất nước Việt Nam",
+    "source_lesson": "Cách mạng tháng Tám năm 1945",
+    "skill_tag": [
+      "history",
+      "application"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Ngày Quốc khánh 2-9 được ghi nhớ vì gắn với sự kiện nào?",
+    "options": {
+      "A": "Nước Việt Nam Dân chủ Cộng hoà ra đời",
+      "B": "Chiến thắng Điện Biên Phủ kết thúc",
+      "C": "Bắt đầu Chiến dịch Hồ Chí Minh",
+      "D": "Hoàn thành công cuộc đổi mới"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 102,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
+    "subject": "Lịch sử và Địa lí",
+    "type": "single_choice",
+    "topic": "Đặc điểm dân cư và lao động",
+    "source_unit": "Đất nước và con người Việt Nam",
+    "source_lesson": "Dân cư Việt Nam",
+    "skill_tag": [
+      "application",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Việc dân cư phân bố không đều giữa các vùng thường dẫn đến điều gì?",
+    "options": {
+      "A": "Nhu cầu phát triển kinh tế - xã hội và tổ chức đời sống ở mỗi vùng có thể khác nhau",
+      "B": "Mọi vùng có số dân và việc làm hoàn toàn giống nhau",
+      "C": "Không ảnh hưởng gì đến học tập và sản xuất",
+      "D": "Khiến mọi đô thị biến mất"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 103,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1408,12 +3535,18 @@ export default [
       "D": "Vì bảo vệ biển không liên quan đến người dân"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 50
+    "number": 104,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1436,12 +3569,18 @@ export default [
       "D": "Đều xảy ra trước năm 1900"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 51
+    "number": 105,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1458,18 +3597,24 @@ export default [
     "type": "single_choice",
     "question": "Muốn biết một tỉnh thuộc vùng nào và giáp những địa phương nào, em nên xem trực tiếp trên: ",
     "options": {
-      "A": "Bản đồ hành chính Việt Nam",
-      "B": "Trục thời gian lịch sử",
-      "C": "Một bài thơ",
-      "D": "Nhãn vở học sinh"
+      "A": "Thân",
+      "B": "Lá",
+      "C": "Bản đồ hành chính Việt Nam",
+      "D": "Rễ"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 52
+    "number": 106,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -1492,12 +3637,18 @@ export default [
       "D": "Không cần học về các nước xung quanh"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 53
+    "number": 107,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1520,12 +3671,18 @@ export default [
       "D": "Làm cuộc sống bất tiện nên không cần"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 54
+    "number": 108,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1542,18 +3699,24 @@ export default [
     "type": "single_choice",
     "question": "Việc học về Phù Nam và Chăm-pa giúp em hiểu thêm điều gì?",
     "options": {
-      "A": "Trên lãnh thổ nước ta từng tồn tại nhiều quốc gia cổ với dấu ấn lịch sử, văn hoá riêng",
-      "B": "Nước ta chỉ có một nền văn hoá duy nhất từ đầu",
-      "C": "Lịch sử chỉ gắn với vùng núi",
-      "D": "Các quốc gia cổ không liên quan đến hiện nay"
+      "A": "Chiến thắng Điện Biên Phủ năm 1954",
+      "B": "Chiến dịch Hồ Chí Minh năm 1975",
+      "C": "Trên lãnh thổ nước ta từng tồn tại nhiều quốc gia cổ với dấu ấn lịch sử, văn hoá riêng",
+      "D": "Cách mạng tháng Tám năm 1945"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 55
+    "number": 109,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -1576,12 +3739,18 @@ export default [
       "D": "Chỉ phát triển nhà máy gần bờ không xử lí nước thải"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 56,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 110,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1599,17 +3768,23 @@ export default [
     "question": "Một bạn nói: 'Châu lục của mình có diện tích rất lớn và trải dài từ vùng lạnh đến vùng nóng'. Bạn đó nhiều khả năng đang nói về châu lục nào?",
     "options": {
       "A": "Châu Á",
-      "B": "Châu Đại Dương",
-      "C": "Châu Nam Cực",
-      "D": "Châu Âu"
+      "B": "danh từ",
+      "C": "động từ",
+      "D": "tính từ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 57,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 111,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -1644,12 +3819,13 @@ export default [
       "Chiến thắng Điện Biên Phủ",
       "Chiến dịch Hồ Chí Minh thắng lợi"
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 58,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 112,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 5,
@@ -1689,12 +3865,13 @@ export default [
       3,
       4
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 59,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 113,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 5,
@@ -1717,12 +3894,18 @@ export default [
       "D": "Đốt lá nhựa để dọn sân"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 60,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 114,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1745,12 +3928,18 @@ export default [
       "D": "Không coi trọng giao thông và dân cư"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 61,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 115,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1768,17 +3957,23 @@ export default [
     "question": "Việc các nước Đông Nam Á cùng tham gia ASEAN nhằm mục đích phù hợp nhất nào sau đây?",
     "options": {
       "A": "Hợp tác cùng phát triển và tăng cường quan hệ hữu nghị",
-      "B": "Xoá bỏ hoàn toàn bản sắc riêng của từng nước",
-      "C": "Chỉ để tổ chức thi đấu thể thao",
-      "D": "Thống nhất thành một quốc gia duy nhất"
+      "B": "Tìm hiểu sự kiện bằng tài liệu chính thống và liên hệ ý nghĩa lịch sử",
+      "C": "Chỉ nhớ tên mốc thời gian mà không cần hiểu nội dung",
+      "D": "So sánh tùy ý không cần căn cứ sự kiện"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 62,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 116,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -1801,12 +3996,18 @@ export default [
       "D": "Muốn thắng phải rút khỏi đất nước"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 63,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 117,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1829,12 +4030,18 @@ export default [
       "D": "Thiết lập nhà nước Văn Lang"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 64,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 118,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1851,18 +4058,24 @@ export default [
     "type": "single_choice",
     "question": "Điểm khác nổi bật gắn với nhà nước Âu Lạc so với Văn Lang là:",
     "options": {
-      "A": "Có truyền thuyết về việc xây thành Cổ Loa gắn với An Dương Vương",
-      "B": "Là nhà nước duy nhất biết trồng lúa",
-      "C": "Không có vua đứng đầu",
-      "D": "Được thành lập sau Cách mạng tháng Tám"
+      "A": "Chiến thắng Điện Biên Phủ năm 1954",
+      "B": "Chiến dịch Hồ Chí Minh năm 1975",
+      "C": "Có truyền thuyết về việc xây thành Cổ Loa gắn với An Dương Vương",
+      "D": "Cách mạng tháng Tám năm 1945"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 65,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 119,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -1885,12 +4098,18 @@ export default [
       "D": "Chỉ ở các đảo nhỏ cô lập"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 66,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 120,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -1913,16 +4132,22 @@ export default [
       "D": "Chỉ phát triển được nghề nông"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 67,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 121,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 68,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 122,
     "grade": 5,
     "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1931,19 +4156,26 @@ export default [
     "type": "single_choice",
     "question": "Biển Đông có vai trò quan trọng đối với nước ta vì:",
     "options": {
-      "A": "Chỉ cung cấp muối ăn",
-      "B": "Góp phần điều hoà khí hậu, phát triển kinh tế biển và bảo vệ chủ quyền",
-      "C": "Làm cho nước ta không có sông ngòi"
+      "A": "Chiến dịch Hồ Chí Minh năm 1975",
+      "B": "Chiến thắng Điện Biên Phủ năm 1954",
+      "C": "Cách mạng tháng Tám năm 1945",
+      "D": "Góp phần điều hoà khí hậu, phát triển kinh tế biển và bảo vệ chủ quyền"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 69,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 123,
     "grade": 5,
     "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1952,19 +4184,26 @@ export default [
     "type": "single_choice",
     "question": "Sự kiện nào mở ra kỉ nguyên độc lập cho dân tộc ở thế kỉ XX?",
     "options": {
-      "A": "Cách mạng tháng Tám năm 1945",
-      "B": "Chiến thắng Bạch Đằng năm 938",
-      "C": "Khởi nghĩa Hai Bà Trưng"
+      "A": "Chiến dịch Hồ Chí Minh năm 1975",
+      "B": "Chiến thắng Điện Biên Phủ năm 1954",
+      "C": "Cách mạng tháng Tám năm 1945",
+      "D": "Nhà nước Văn Lang"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 70,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 124,
     "grade": 5,
     "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -1973,19 +4212,26 @@ export default [
     "type": "single_choice",
     "question": "Chiến thắng Bạch Đằng năm 938 có ý nghĩa lớn nhất là gì?",
     "options": {
-      "A": "Chấm dứt ách đô hộ phương Bắc, mở ra thời kì độc lập lâu dài",
-      "B": "Bắt đầu thời kì Bắc thuộc",
-      "C": "Mở rộng lãnh thổ về phía Nam"
+      "A": "Chiến thắng Điện Biên Phủ năm 1954",
+      "B": "Cách mạng tháng Tám năm 1945",
+      "C": "Chiến dịch Hồ Chí Minh năm 1975",
+      "D": "Chấm dứt ách đô hộ phương Bắc, mở ra thời kì độc lập lâu dài"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 71,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 125,
     "grade": 5,
     "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -2014,12 +4260,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 72,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 126,
     "grade": 5,
     "book": "Lịch sử và Địa lí 5 - Kết nối tri thức",
     "subject": "Lịch sử và Địa lí",
@@ -2029,14 +4276,608 @@ export default [
     "question": "Điểm giống nhau giữa Trung Quốc và Lào trong quan hệ với Việt Nam là:",
     "options": {
       "A": "Đều là quốc gia láng giềng của Việt Nam",
-      "B": "Đều không có biên giới với Việt Nam",
-      "C": "Đều ở châu Phi"
+      "B": "Chiến thắng Điện Biên Phủ năm 1954",
+      "C": "Cách mạng tháng Tám năm 1945",
+      "D": "Chiến dịch Hồ Chí Minh năm 1975"
     },
     "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "An toàn khi dùng nguồn sáng",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Ánh sáng trong cuộc sống",
+    "skill_tag": [
+      "safety",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Việc nào là đúng khi sử dụng đèn học ở nhà?",
+    "options": {
+      "A": "Đặt đèn đủ sáng, chiếu phù hợp để bảo vệ mắt",
+      "B": "Ngồi học nơi quá tối cho đỡ chói",
+      "C": "Chiếu đèn thẳng vào mắt để nhìn rõ hơn",
+      "D": "Để đèn quá gần giấy tới mức nóng lên"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 127,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Ánh sáng và bóng tối",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Ánh sáng và bóng tối",
+    "skill_tag": [
+      "light",
+      "experiment"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Để bóng của một đồ vật trên tường rõ hơn, cách nào phù hợp nhất?",
+    "options": {
+      "A": "Chiếu nguồn sáng vào vật và để vật chắn giữa đèn với tường",
+      "B": "Đặt vật ở sau lưng người quan sát, không cần đèn",
+      "C": "Chỉ cần mở to mắt nhìn mà không cần nguồn sáng",
+      "D": "Để nhiều vật chắn chồng kín mọi phía"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 128,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Bảo vệ nguồn nước",
+    "source_unit": "Chất",
+    "source_lesson": "Bảo vệ nguồn nước",
+    "skill_tag": [
+      "environment",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Việc nào giúp bảo vệ nguồn nước ở khu dân cư?",
+    "options": {
+      "A": "Không xả rác và nước bẩn trực tiếp xuống ao hồ, kênh rạch",
+      "B": "Đổ dầu mỡ thừa xuống cống cho trôi đi",
+      "C": "Rửa xe ngay bên mép ao cho tiện",
+      "D": "Đem pin hỏng ném xuống mương"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 129,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "ordering",
+    "topic": "Chăm sóc cây trồng lớp học",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Nhu cầu sống của thực vật",
+    "skill_tag": [
+      "biology",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp công việc chăm sóc cây hợp lí.",
+    "items": [
+      {
+        "label": "Quan sát tình trạng cây và đất",
+        "correct_position": 1
+      },
+      {
+        "label": "Tưới lượng nước phù hợp, đặt cây nơi đủ sáng",
+        "correct_position": 2
+      },
+      {
+        "label": "Theo dõi sự thay đổi của cây sau đó",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 130,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Dinh dưỡng hợp lí",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Dinh dưỡng và thức ăn",
+    "skill_tag": [
+      "health",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Bữa sáng nào phù hợp hơn với học sinh tiểu học trước giờ đến lớp?",
+    "options": {
+      "A": "Bữa ăn đủ năng lượng, vệ sinh và không quá qua loa",
+      "B": "Chỉ uống nước ngọt rồi đi học",
+      "C": "Bỏ bữa sáng, chờ ăn quà vặt ở cổng trường",
+      "D": "Chỉ ăn một món nhiều dầu mỡ mỗi ngày"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 131,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Điều kiện sống của thực vật",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Nhu cầu sống của thực vật",
+    "skill_tag": [
+      "biology",
+      "inference"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Hai chậu cây được tưới nước như nhau, nhưng một chậu để nơi thiếu ánh sáng lâu ngày. Kết quả dễ xảy ra là:",
+    "options": {
+      "A": "Cây để nơi thiếu sáng sinh trưởng kém hơn",
+      "B": "Cây thiếu sáng sẽ ra hoa nhiều hơn chắc chắn",
+      "C": "Hai cây phát triển giống hệt nhau vì cùng được tưới nước",
+      "D": "Cây thiếu sáng tự tạo thêm ánh sáng cho mình"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 132,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "matching",
+    "topic": "Ghép nguồn năng lượng với ví dụ",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Âm thanh, ánh sáng, nhiệt",
+    "skill_tag": [
+      "energy",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép hiện tượng với dạng năng lượng nổi bật nhất.",
+    "items": [
+      {
+        "label": "Đèn pin chiếu sáng",
+        "correct_match": "Ánh sáng"
+      },
+      {
+        "label": "Nước đun sôi làm nóng ấm",
+        "correct_match": "Nhiệt"
+      },
+      {
+        "label": "Tiếng trống trường",
+        "correct_match": "Âm thanh"
+      }
+    ],
+    "option_pool": [
+      "Ánh sáng",
+      "Nhiệt",
+      "Âm thanh"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 133,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Nhu cầu sống của động vật",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Nhu cầu sống của động vật",
+    "skill_tag": [
+      "biology",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nuôi thỏ trong lồng quá chật, ít được cho ăn và không có nước sạch có thể dẫn đến điều gì?",
+    "options": {
+      "A": "Thỏ dễ bị yếu và chậm lớn vì điều kiện sống không phù hợp",
+      "B": "Thỏ sẽ khoẻ hơn vì ít phải vận động",
+      "C": "Thỏ không cần nước nếu đã ăn rau",
+      "D": "Lồng chật giúp thỏ thông minh hơn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 134,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Nước sạch và an toàn",
+    "source_unit": "Chất",
+    "source_lesson": "Sự ô nhiễm và bảo vệ nguồn nước",
+    "skill_tag": [
+      "science-life",
+      "reasoning"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nước mưa hứng trong chậu ngoài sân nhìn khá trong. Vì sao vẫn không nên uống ngay?",
+    "options": {
+      "A": "Vì nước có thể lẫn bụi bẩn, vi sinh vật hoặc chất bẩn từ môi trường",
+      "B": "Vì nước mưa luôn là nước mặn",
+      "C": "Vì nước trong thì chắc chắn không có khoáng chất",
+      "D": "Vì mọi loại nước đều phải nhuộm màu mới an toàn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 135,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Phòng chống bão",
+    "source_unit": "Chất",
+    "source_lesson": "Gió, bão và phòng chống bão",
+    "skill_tag": [
+      "safety",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trước khi bão đến, việc làm nào của gia đình là hợp lí nhất?",
+    "options": {
+      "A": "Chằng chống nhà cửa và cất gọn vật dễ bị gió cuốn",
+      "B": "Mở hết cửa sổ để gió lưu thông mạnh hơn",
+      "C": "Ra ngoài đồng xem mây bão kéo đến",
+      "D": "Tự ý bơi qua vùng nước ngập để quan sát"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 136,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Phòng tránh đuối nước",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Phòng tránh đuối nước",
+    "skill_tag": [
+      "safety",
+      "reasoning"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Tại sao học sinh không nên xuống ao hồ chơi dù thấy nước nông?",
+    "options": {
+      "A": "Vì vẫn có nguy cơ trơn trượt, hố sâu hoặc tai nạn bất ngờ",
+      "B": "Vì nước nông luôn nóng hơn nước sâu",
+      "C": "Vì ao hồ chỉ nguy hiểm vào buổi tối",
+      "D": "Vì nơi có nước nông thì không có cá"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 137,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Vệ sinh phòng bệnh",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Phòng bệnh liên quan vệ sinh cá nhân",
+    "skill_tag": [
+      "health",
+      "prevention"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Thói quen nào giúp hạn chế bệnh lây qua đường tiêu hoá?",
+    "options": {
+      "A": "Ăn chín, uống sôi và rửa tay sạch trước khi ăn",
+      "B": "Ăn hoa quả chưa rửa vì nhìn vẫn sạch",
+      "C": "Dùng chung khăn mặt với nhiều người",
+      "D": "Chỉ che thức ăn khi có khách đến nhà"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 138,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Âm thanh trong cuộc sống",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Âm thanh",
+    "skill_tag": [
+      "sound",
+      "application"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Vì sao học sinh cần nói vừa đủ nghe trong lớp?",
+    "options": {
+      "A": "Âm thanh quá lớn dễ gây ồn, làm người khác mất tập trung",
+      "B": "Nói nhỏ thì câu chữ tự biến thành chữ viết",
+      "C": "Âm thanh nhỏ luôn truyền nhanh hơn âm thanh lớn",
+      "D": "Nói to giúp bài học ngắn lại"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 139,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Không khí và sự cháy",
+    "source_unit": "Chất",
+    "source_lesson": "Không khí và sự cháy",
+    "skill_tag": [
+      "experiment",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Khi úp cốc lên ngọn nến đang cháy, ngọn nến tắt dần vì:",
+    "options": {
+      "A": "Không khí cần cho sự cháy trong cốc giảm dần",
+      "B": "Ánh sáng trong phòng làm nến yếu đi",
+      "C": "Cốc thuỷ tinh làm sáp nến biến mất ngay",
+      "D": "Ngọn nến chỉ cháy được khi có gió mạnh"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 140,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Môi trường sống của sinh vật",
+    "source_unit": "Sinh vật và môi trường",
+    "source_lesson": "Môi trường sống",
+    "skill_tag": [
+      "environment",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Nếu môi trường sống bị thay đổi xấu đi kéo dài, sinh vật thường gặp khó khăn gì?",
+    "options": {
+      "A": "Khó tìm thức ăn, nơi ở và có thể giảm số lượng",
+      "B": "Chắc chắn sinh trưởng tốt hơn vì phải thích nghi",
+      "C": "Không bị ảnh hưởng vì sinh vật tự tạo được môi trường mới ngay",
+      "D": "Chỉ con người mới cần môi trường sống phù hợp"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 141,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Nấm có ích và nấm có hại",
+    "source_unit": "Nấm",
+    "source_lesson": "Nấm trong đời sống",
+    "skill_tag": [
+      "classification",
+      "science-life"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Nhận định nào đúng về nấm trong đời sống?",
+    "options": {
+      "A": "Có loại nấm có ích, cũng có loại nấm gây hại hoặc gây ngộ độc",
+      "B": "Mọi loại nấm đều ăn được",
+      "C": "Nấm chỉ sống ở nơi khô ráo, nhiều nắng",
+      "D": "Nấm không liên quan gì đến thực phẩm"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 142,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Khoa học 4 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Truyền nhiệt",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Nóng, lạnh và vật dẫn nhiệt",
+    "skill_tag": [
+      "energy",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Tay cầm nồi thường làm bằng nhựa hoặc gỗ vì:",
+    "options": {
+      "A": "Các vật đó dẫn nhiệt kém hơn kim loại, giúp cầm đỡ nóng tay",
+      "B": "Các vật đó làm thức ăn chín nhanh hơn",
+      "C": "Nhựa và gỗ luôn nặng hơn kim loại",
+      "D": "Kim loại không dùng được trong nhà bếp"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 143,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2059,12 +4900,18 @@ export default [
       "D": "Chỉ làm thay đổi màu áo"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 73
+    "number": 144,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2087,12 +4934,18 @@ export default [
       "D": "Vì nước chỉ an toàn khi có màu xanh"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 74
+    "number": 145,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2115,12 +4968,18 @@ export default [
       "D": "Mở hết cửa sổ để gió lùa vào"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 75
+    "number": 146,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2143,12 +5002,18 @@ export default [
       "D": "Cây không cần ánh sáng nếu đã tưới nước"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 76
+    "number": 147,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2171,12 +5036,18 @@ export default [
       "D": "Đèn pin hết pin ngay lập tức"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 77
+    "number": 148,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2199,12 +5070,18 @@ export default [
       "D": "Vì người bị nạn luôn tự bơi được vào bờ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 78
+    "number": 149,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2227,12 +5104,18 @@ export default [
       "D": "Đặt đèn dưới gầm bàn"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 79,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 150,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2255,12 +5138,18 @@ export default [
       "D": "Che tạm mặt ao bằng bạt"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 80,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 151,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2283,12 +5172,18 @@ export default [
       "D": "Không ảnh hưởng đến sinh vật nào"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 81,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 152,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2311,12 +5206,18 @@ export default [
       "D": "Chỉ có mì tôm khô"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 82,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 153,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2339,12 +5240,18 @@ export default [
       "D": "Chỉ cây mới làm thực phẩm hỏng"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 83,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 154,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2367,12 +5274,18 @@ export default [
       "D": "Khăn vải có thể thay nắp nồi"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 84,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 155,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2395,12 +5308,18 @@ export default [
       "D": "Nói nhỏ giúp đèn sáng hơn"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 85,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 156,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2423,12 +5342,18 @@ export default [
       "D": "Không ảnh hưởng gì"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 86,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 157,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2451,12 +5376,18 @@ export default [
       "D": "Vì ngọn nến sợ bóng tối"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 87,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 158,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2479,12 +5410,18 @@ export default [
       "D": "Không chậu nào giảm"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 88,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 159,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2507,12 +5444,18 @@ export default [
       "D": "Ngưng tụ"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 89,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 160,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -2535,16 +5478,22 @@ export default [
       "D": "Cả ba như nhau"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 90,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 161,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 91,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 162,
     "grade": 4,
     "book": "Khoa học 4 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -2553,19 +5502,26 @@ export default [
     "type": "single_choice",
     "question": "Biện pháp nào góp phần bảo vệ môi trường sống của sinh vật?",
     "options": {
-      "A": "Giữ nguồn nước sạch và không phá huỷ nơi ở của sinh vật",
-      "B": "Đốt rừng làm nương bừa bãi",
-      "C": "Săn bắt chim thú trái phép"
+      "A": "Chỉ cần quan tâm lợi ích trước mắt",
+      "B": "Khai thác nhiều hơn mà không cần phục hồi",
+      "C": "Giữ nguồn nước sạch và không phá huỷ nơi ở của sinh vật",
+      "D": "Bảo vệ môi trường là việc riêng của người lớn"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 92,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 163,
     "grade": 4,
     "book": "Khoa học 4 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -2594,12 +5550,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 93,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 164,
     "grade": 4,
     "book": "Khoa học 4 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -2608,19 +5565,26 @@ export default [
     "type": "single_choice",
     "question": "Khi cảm thấy không an toàn, em nên ưu tiên điều gì?",
     "options": {
-      "A": "Im lặng chịu đựng",
-      "B": "Tìm sự giúp đỡ từ bố mẹ, thầy cô hoặc người lớn đáng tin cậy",
-      "C": "Tự giải quyết một mình bằng mọi cách"
+      "A": "Làm theo thói quen cho nhanh mà không cần kiểm tra độ an toàn",
+      "B": "Tự xử lí ngay khi chưa có người lớn hỗ trợ",
+      "C": "Đứng gần để quan sát kĩ hơn rồi quyết định sau",
+      "D": "Tìm sự giúp đỡ từ bố mẹ, thầy cô hoặc người lớn đáng tin cậy"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 94,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 165,
     "grade": 4,
     "book": "Khoa học 4 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -2636,12 +5600,17 @@ export default [
     "correct_answer": "B",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-fallback"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 95,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 166,
     "grade": 4,
     "book": "Khoa học 4 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -2650,15 +5619,643 @@ export default [
     "type": "single_choice",
     "question": "Khi đi bơi hoặc chơi gần ao hồ, em cần làm gì để phòng tránh đuối nước?",
     "options": {
-      "A": "Tự ý ra khu vực nước sâu",
-      "B": "Luôn có người lớn giám sát và tuân thủ quy định an toàn",
-      "C": "Chạy nhảy, xô đẩy bạn ở mép hồ"
+      "A": "Luôn có người lớn giám sát và tuân thủ quy định an toàn",
+      "B": "Tự xử lí ngay khi chưa có người lớn hỗ trợ",
+      "C": "Đứng gần để quan sát kĩ hơn rồi quyết định sau",
+      "D": "Làm theo thói quen cho nhanh mà không cần kiểm tra độ an toàn"
     },
-    "correct_answer": "B",
+    "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "An toàn điện trong gia đình",
+    "source_unit": "Năng lượng",
+    "source_lesson": "An toàn khi sử dụng điện",
+    "skill_tag": [
+      "safety",
+      "electricity"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi tay còn ướt, em không nên chạm vào công tắc điện vì:",
+    "options": {
+      "A": "Nước có thể làm tăng nguy cơ bị điện giật",
+      "B": "Công tắc sẽ đổi màu ngay lập tức",
+      "C": "Điện chỉ nguy hiểm với người lớn",
+      "D": "Tay ướt giúp tắt điện nhanh hơn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 167,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Bảo quản thực phẩm",
+    "source_unit": "Vi khuẩn",
+    "source_lesson": "Vi khuẩn trong chế biến và bảo quản thực phẩm",
+    "skill_tag": [
+      "science-life",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Thực phẩm chín nên được che đậy và bảo quản đúng cách chủ yếu để:",
+    "options": {
+      "A": "Hạn chế vi khuẩn, ruồi muỗi và bụi bẩn xâm nhập",
+      "B": "Làm thức ăn tự ngọt hơn",
+      "C": "Thực phẩm đổi màu cho đẹp mắt",
+      "D": "Không cần rửa dụng cụ nữa"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 168,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Bảo vệ đất",
+    "source_unit": "Chất",
+    "source_lesson": "Đất và bảo vệ đất",
+    "skill_tag": [
+      "environment",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Biện pháp nào giúp hạn chế xói mòn đất ở vùng đồi núi?",
+    "options": {
+      "A": "Trồng cây phủ xanh và giữ rừng",
+      "B": "Chặt cây trên sườn dốc để đất thoáng hơn",
+      "C": "Đốt thực bì thường xuyên vào mùa khô",
+      "D": "Để đất trống sau mưa lớn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 169,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "matching",
+    "topic": "Ghép hành động với mục tiêu bảo vệ môi trường",
+    "source_unit": "Sinh vật và môi trường",
+    "source_lesson": "Bảo vệ môi trường",
+    "skill_tag": [
+      "environment",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép hành động với mục tiêu phù hợp.",
+    "items": [
+      {
+        "label": "Trồng cây",
+        "correct_match": "Giữ đất, làm môi trường xanh hơn"
+      },
+      {
+        "label": "Phân loại rác",
+        "correct_match": "Tạo thuận lợi cho thu gom và xử lí"
+      },
+      {
+        "label": "Tiết kiệm điện",
+        "correct_match": "Giảm lãng phí năng lượng"
+      }
+    ],
+    "option_pool": [
+      "Giữ đất, làm môi trường xanh hơn",
+      "Tạo thuận lợi cho thu gom và xử lí",
+      "Giảm lãng phí năng lượng"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 170,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Hỗn hợp và dung dịch",
+    "source_unit": "Chất",
+    "source_lesson": "Hỗn hợp và dung dịch",
+    "skill_tag": [
+      "matter",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn tách cát ra khỏi nước đục, cách làm phù hợp hơn cả là:",
+    "options": {
+      "A": "Lọc hoặc để lắng rồi gạn",
+      "B": "Dùng nam châm hút",
+      "C": "Thổi mạnh vào cốc nước",
+      "D": "Cho thêm đường để cát biến mất"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 171,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Mạch điện đơn giản",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Mạch điện đơn giản",
+    "skill_tag": [
+      "electricity",
+      "reasoning"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn bóng đèn pin sáng, điều kiện nào cần được đảm bảo?",
+    "options": {
+      "A": "Nguồn điện, dây dẫn và bóng đèn được nối thành mạch kín",
+      "B": "Chỉ cần có bóng đèn và công tắc",
+      "C": "Mạch điện càng hở càng sáng",
+      "D": "Không cần pin nếu dây đủ dài"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 172,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Ô nhiễm môi trường nước",
+    "source_unit": "Sinh vật và môi trường",
+    "source_lesson": "Môi trường và tài nguyên",
+    "skill_tag": [
+      "environment",
+      "systems"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu một con kênh bị đổ nhiều rác và nước thải lâu ngày, hậu quả nào dễ thấy trước tiên?",
+    "options": {
+      "A": "Nước bốc mùi, sinh vật sống trong nước bị ảnh hưởng",
+      "B": "Nước trong hơn do có nhiều chất mới",
+      "C": "Cá và tôm sẽ kéo đến nhiều hơn",
+      "D": "Môi trường xung quanh mát hơn rõ rệt"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 173,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Sinh sản của thực vật",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Sinh sản ở thực vật",
+    "skill_tag": [
+      "biology",
+      "comparison"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ví dụ nào thuộc sinh sản sinh dưỡng ở thực vật?",
+    "options": {
+      "A": "Trồng khoai lang bằng dây",
+      "B": "Gieo hạt đỗ để mọc cây mới",
+      "C": "Thụ phấn cho hoa bí tạo quả",
+      "D": "Để hạt thóc trong lọ kín"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 174,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Sử dụng năng lượng tiết kiệm",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Sử dụng năng lượng tiết kiệm",
+    "skill_tag": [
+      "energy",
+      "behavior"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Việc làm nào thể hiện sử dụng năng lượng tiết kiệm, hiệu quả?",
+    "options": {
+      "A": "Tắt quạt, đèn khi không sử dụng",
+      "B": "Bật đèn cả ban ngày cho sáng hơn",
+      "C": "Mở tủ lạnh thật lâu mỗi lần lấy đồ",
+      "D": "Cắm sạc điện suốt ngày dù không dùng"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 175,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Thói quen bảo vệ sức khoẻ",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Chăm sóc sức khoẻ tuổi dậy thì",
+    "skill_tag": [
+      "health",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Bạn nào có thói quen tốt hơn cho sức khoẻ lâu dài?",
+    "options": {
+      "A": "Ngủ đủ, vận động hợp lí và ăn uống cân đối",
+      "B": "Thức khuya thường xuyên để chơi điện tử",
+      "C": "Bỏ bữa sáng nhưng uống nước ngọt nhiều",
+      "D": "Ngại vận động vì sợ mệt"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 176,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Vi khuẩn và bệnh truyền nhiễm",
+    "source_unit": "Vi khuẩn",
+    "source_lesson": "Vi khuẩn có lợi, có hại và phòng bệnh",
+    "skill_tag": [
+      "health",
+      "prevention"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Cách nào giúp hạn chế lây truyền một số bệnh nhiễm khuẩn trong sinh hoạt hằng ngày?",
+    "options": {
+      "A": "Giữ vệ sinh, che miệng khi ho và không dùng chung đồ cá nhân khi cần",
+      "B": "Chỉ cần thấy khoẻ là không cần rửa tay",
+      "C": "Để thức ăn chín cạnh rác hữu cơ",
+      "D": "Dùng chung khăn mặt với người đang ốm"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 177,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "ordering",
+    "topic": "Xử lí khi phát hiện dây điện hở",
+    "source_unit": "Năng lượng",
+    "source_lesson": "An toàn điện",
+    "skill_tag": [
+      "safety",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp cách xử lí phù hợp khi thấy dây điện hở ngoài sân.",
+    "items": [
+      {
+        "label": "Tránh xa khu vực nguy hiểm",
+        "correct_position": 1
+      },
+      {
+        "label": "Báo cho người lớn hoặc người có trách nhiệm",
+        "correct_position": 2
+      },
+      {
+        "label": "Chờ xử lí, không tự ý chạm vào",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 178,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Nguồn năng lượng tái tạo",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Một số nguồn năng lượng",
+    "skill_tag": [
+      "energy",
+      "classification"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Nguồn năng lượng nào được xếp vào nhóm tái tạo?",
+    "options": {
+      "A": "Năng lượng mặt trời",
+      "B": "Than đá",
+      "C": "Dầu mỏ",
+      "D": "Khí thiên nhiên"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 179,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Sự biến đổi của chất",
+    "source_unit": "Chất",
+    "source_lesson": "Biến đổi lí học và hoá học",
+    "skill_tag": [
+      "matter",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Hiện tượng nào là biến đổi hoá học?",
+    "options": {
+      "A": "Sắt bị gỉ",
+      "B": "Nước đá tan thành nước",
+      "C": "Đường hoà tan trong nước",
+      "D": "Giấy bị xé nhỏ"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 180,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Tài nguyên thiên nhiên",
+    "source_unit": "Sinh vật và môi trường",
+    "source_lesson": "Sử dụng hợp lí tài nguyên",
+    "skill_tag": [
+      "environment",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Vì sao cần sử dụng tiết kiệm tài nguyên thiên nhiên?",
+    "options": {
+      "A": "Vì nhiều tài nguyên có hạn và cần cho hiện tại lẫn tương lai",
+      "B": "Vì tài nguyên luôn tự sinh ra vô tận mỗi ngày",
+      "C": "Vì tiết kiệm tài nguyên sẽ làm con người không cần sản xuất nữa",
+      "D": "Vì tài nguyên chỉ có ích trong bảo tàng"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 181,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Tuổi dậy thì",
+    "source_unit": "Con người và sức khoẻ",
+    "source_lesson": "Sự lớn lên và phát triển của cơ thể",
+    "skill_tag": [
+      "health",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Khi cơ thể bước vào tuổi dậy thì, điều quan trọng học sinh cần làm là:",
+    "options": {
+      "A": "Giữ vệ sinh cơ thể, ăn uống lành mạnh và trao đổi với người lớn khi cần",
+      "B": "Lo lắng và giấu kín mọi thay đổi của bản thân",
+      "C": "Tin vào mọi lời truyền miệng chưa kiểm chứng",
+      "D": "Bỏ qua hoàn toàn việc chăm sóc sức khoẻ"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 182,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Vật dẫn điện và cách điện",
+    "source_unit": "Năng lượng",
+    "source_lesson": "Vật dẫn điện và vật cách điện",
+    "skill_tag": [
+      "electricity",
+      "classification"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Vật liệu nào thường được dùng làm vỏ bọc dây điện vì cách điện tốt hơn?",
+    "options": {
+      "A": "Nhựa",
+      "B": "Đồng",
+      "C": "Nhôm",
+      "D": "Sắt"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 183,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Khoa học 5 - Kết nối tri thức",
+    "subject": "Khoa học",
+    "type": "single_choice",
+    "topic": "Vòng đời động vật",
+    "source_unit": "Thực vật và động vật",
+    "source_lesson": "Sinh sản và phát triển ở động vật",
+    "skill_tag": [
+      "biology",
+      "reasoning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Việc tìm hiểu vòng đời của côn trùng có ích gì trong thực tế?",
+    "options": {
+      "A": "Giúp chăm sóc hoặc phòng trừ đúng thời điểm",
+      "B": "Chỉ để vẽ cho đẹp, không có ý nghĩa gì",
+      "C": "Không liên quan đến sản xuất và đời sống",
+      "D": "Giúp côn trùng lớn nhanh hơn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 184,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2675,18 +6272,24 @@ export default [
     "type": "single_choice",
     "question": "Một nhà máy xả nước thải chưa xử lí xuống sông. Ảnh hưởng nào dễ xuất hiện trước hết?",
     "options": {
-      "A": "Nguồn nước bị ô nhiễm, sinh vật dưới nước bị tác động",
+      "A": "Cây trên bờ lớn nhanh ngay",
       "B": "Nước sông tự trong hơn",
-      "C": "Cây trên bờ lớn nhanh ngay",
+      "C": "Nguồn nước bị ô nhiễm, sinh vật dưới nước bị tác động",
       "D": "Không có thay đổi nào"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 96
+    "number": 185,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -2709,12 +6312,18 @@ export default [
       "D": "Đặt nam châm cạnh cốc"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 97
+    "number": 186,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2737,12 +6346,18 @@ export default [
       "D": "Đổ nhiều rác nhựa lên mặt đất"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 98
+    "number": 187,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2765,12 +6380,18 @@ export default [
       "D": "Đứng lên vũng nước để quan sát gần hơn"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 99
+    "number": 188,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2793,12 +6414,18 @@ export default [
       "D": "Bỏ qua việc che đậy thức ăn"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 100
+    "number": 189,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2821,12 +6448,18 @@ export default [
       "D": "Sinh sản bằng hạt không liên quan gì đến cây mẹ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 101
+    "number": 190,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2849,12 +6482,18 @@ export default [
       "D": "Số lượng cây rừng tăng nhanh"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 102,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 191,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2877,12 +6516,18 @@ export default [
       "D": "Gạo trộn với đỗ xanh"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 103,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 192,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2899,18 +6544,24 @@ export default [
     "type": "single_choice",
     "question": "Trong mạch điện đơn giản dùng pin và bóng đèn, bộ phận nào dưới đây nếu bị đứt sẽ làm đèn không sáng?",
     "options": {
-      "A": "Một đoạn dây dẫn nối mạch",
-      "B": "Vỏ nhựa bọc ngoài dây điện",
-      "C": "Bìa giấy kê dưới pin",
-      "D": "Mặt bàn đặt mạch"
+      "A": "Rễ",
+      "B": "Thân",
+      "C": "Lá",
+      "D": "Một đoạn dây dẫn nối mạch"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 104,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 193,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -2933,12 +6584,18 @@ export default [
       "D": "Đốt rác nhựa"
     },
     "correct_answer": "C",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 105,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 194,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2961,12 +6618,18 @@ export default [
       "D": "Giấy đốt thành tro"
     },
     "correct_answer": "C",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 106,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 195,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -2989,12 +6652,18 @@ export default [
       "D": "Không thể phòng tránh bệnh do vi khuẩn"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 107,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 196,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -3017,12 +6686,18 @@ export default [
       "D": "Thay đổi màu sắc của kén"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 108,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 197,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -3045,12 +6720,18 @@ export default [
       "D": "Nước bay hơi"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 109,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 198,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -3073,12 +6754,18 @@ export default [
       "D": "Làm đất biến thành đá"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 110,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 199,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -3095,18 +6782,24 @@ export default [
     "type": "single_choice",
     "question": "Bộ phận nào của hoa phát triển thành quả và hạt sau khi thụ phấn, thụ tinh?",
     "options": {
-      "A": "Nhị và nhuỵ",
-      "B": "Cuống lá",
-      "C": "Rễ phụ",
-      "D": "Vỏ thân"
+      "A": "Rễ",
+      "B": "Thân",
+      "C": "Lá",
+      "D": "Nhị và nhuỵ"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 111,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 200,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -3129,12 +6822,18 @@ export default [
       "D": "Nghe theo mọi thông tin trên mạng không kiểm chứng"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 112,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 201,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -3157,16 +6856,22 @@ export default [
       "D": "Năng lượng hoá học của thức ăn"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 113,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 202,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 114,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 203,
     "grade": 5,
     "book": "Khoa học 5 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -3182,12 +6887,17 @@ export default [
     "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-fallback"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 115,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 204,
     "grade": 5,
     "book": "Khoa học 5 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -3196,19 +6906,26 @@ export default [
     "type": "single_choice",
     "question": "Trong các hiện tượng sau, hiện tượng nào là biến đổi hoá học?",
     "options": {
-      "A": "Giấy bị đốt cháy thành tro",
-      "B": "Nước bay hơi",
-      "C": "Đường hòa tan trong nước"
+      "A": "Dùng nam châm trong mọi trường hợp tách chất",
+      "B": "Giấy bị đốt cháy thành tro",
+      "C": "Thêm một chất khác vào là có thể tách ngay",
+      "D": "Mọi biến đổi nhìn thấy đều là biến đổi hoá học"
     },
-    "correct_answer": "A",
+    "correct_answer": "B",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 116,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 205,
     "grade": 5,
     "book": "Khoa học 5 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -3217,19 +6934,25 @@ export default [
     "type": "single_choice",
     "question": "Điều nào đúng khi nói về bạn nam và bạn nữ ở lứa tuổi học sinh?",
     "options": {
-      "A": "Cần tôn trọng sự khác biệt và hỗ trợ nhau trong học tập, sinh hoạt",
-      "B": "Bạn nam luôn làm việc gì cũng tốt hơn bạn nữ",
-      "C": "Bạn nữ không cần tham gia hoạt động thể thao"
+      "A": "Ăn uống điều độ, hợp vệ sinh",
+      "B": "Cần tôn trọng sự khác biệt và hỗ trợ nhau trong học tập, sinh hoạt",
+      "C": "Thức khuya thường xuyên",
+      "D": "Bỏ qua vệ sinh cá nhân"
     },
-    "correct_answer": "A",
+    "correct_answer": "B",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 117,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 206,
     "grade": 5,
     "book": "Khoa học 5 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -3238,19 +6961,26 @@ export default [
     "type": "single_choice",
     "question": "Điểm chung của năng lượng mặt trời, gió và nước chảy là:",
     "options": {
-      "A": "Đều là nguồn năng lượng tái tạo",
-      "B": "Đều gây ô nhiễm nặng",
-      "C": "Đều không dùng được trong thực tế"
+      "A": "Dùng nam châm trong mọi trường hợp tách chất",
+      "B": "Thêm một chất khác vào là có thể tách ngay",
+      "C": "Mọi biến đổi nhìn thấy đều là biến đổi hoá học",
+      "D": "Đều là nguồn năng lượng tái tạo"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 118,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 207,
     "grade": 5,
     "book": "Khoa học 5 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -3279,12 +7009,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 119,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 208,
     "grade": 5,
     "book": "Khoa học 5 - Kết nối tri thức",
     "subject": "Khoa học",
@@ -3318,8 +7049,622 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Báo cáo thảo luận nhóm",
+    "source_unit": "Mỗi người một vẻ",
+    "source_lesson": "Nói và nghe",
+    "skill_tag": [
+      "functional-writing",
+      "organization"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Một bản báo cáo thảo luận nhóm tốt cần có điểm nào sau đây?",
+    "options": {
+      "A": "Nêu rõ nhiệm vụ, ý kiến chính và kết quả thống nhất",
+      "B": "Ghi toàn bộ lời nói vụn vặt của từng bạn",
+      "C": "Chỉ nêu cảm xúc của người viết",
+      "D": "Viết càng dài càng tốt dù thiếu trọng tâm"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 209,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Cảm xúc của người viết",
+    "source_unit": "Sống để yêu thương",
+    "source_lesson": "Đọc hiểu",
+    "skill_tag": [
+      "reading",
+      "inference"
+    ],
+    "difficulty": "vận dụng",
+    "passage": "Mẹ cẩn thận gấp từng bộ quần áo cho tôi trước chuyến đi xa. Bàn tay mẹ thoăn thoắt, còn tôi bỗng thấy sống mũi cay cay.",
+    "question": "Từ “cay cay” trong đoạn văn cho thấy người kể đang có cảm xúc gì?",
+    "options": {
+      "A": "Xúc động, thương mẹ",
+      "B": "Giận dữ vì phải đi xa",
+      "C": "Ngạc nhiên vì quần áo quá nhiều",
+      "D": "Buồn ngủ vì chuẩn bị lâu"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 210,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Câu kết đoạn",
+    "source_unit": "Trải nghiệm và khám phá",
+    "source_lesson": "Viết đoạn văn",
+    "skill_tag": [
+      "writing",
+      "organization"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Câu kết đoạn nào phù hợp nhất cho đoạn văn kể về một lần em nhặt được của rơi và trả lại người mất?",
+    "options": {
+      "A": "Việc làm nhỏ ấy khiến em hiểu rằng trung thực luôn đáng quý.",
+      "B": "Chiều hôm đó trời nhiều mây hơn buổi sáng.",
+      "C": "Em vẫn còn thích ăn món bánh ngọt ngoài cổng trường.",
+      "D": "Bạn em học giỏi Toán hơn em rất nhiều."
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 211,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Chi tiết tiêu biểu khi tả người",
+    "source_unit": "Mỗi người một vẻ",
+    "source_lesson": "Viết bài văn miêu tả",
+    "skill_tag": [
+      "writing",
+      "portrait"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi tả một người thân, chi tiết nào thường giúp nhân vật hiện lên rõ hơn?",
+    "options": {
+      "A": "Một vài nét ngoại hình và hoạt động, tính cách tiêu biểu",
+      "B": "Liệt kê đầy đủ tất cả số đo của người đó",
+      "C": "Chỉ viết “rất tốt” nhiều lần",
+      "D": "Bỏ qua mọi chi tiết cụ thể để bài ngắn hơn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 212,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Chọn từ nối phù hợp",
+    "source_unit": "Quê hương trong tôi",
+    "source_lesson": "Liên kết câu",
+    "skill_tag": [
+      "grammar",
+      "cohesion"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Chọn từ ngữ thích hợp để liên kết: “Trời bắt đầu nắng to, ... chúng em chuyển chậu cây vào chỗ râm.”",
+    "options": {
+      "A": "vì thế",
+      "B": "mặc dù",
+      "C": "nhưng",
+      "D": "nếu"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 213,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Dấu gạch ngang",
+    "source_unit": "Chắp cánh ước mơ",
+    "source_lesson": "Dấu gạch ngang",
+    "skill_tag": [
+      "punctuation",
+      "usage"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong đoạn đối thoại, dấu gạch ngang thường dùng để:",
+    "options": {
+      "A": "Đánh dấu lời nói trực tiếp của nhân vật",
+      "B": "Tách vị ngữ khỏi chủ ngữ",
+      "C": "Thay cho dấu chấm hết câu",
+      "D": "Nối các tiếng bắt buộc trong mọi từ ghép"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 214,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Đọc hiểu chi tiết gợi cảm xúc",
+    "source_unit": "Sống để yêu thương",
+    "source_lesson": "Đọc hiểu văn bản",
+    "skill_tag": [
+      "reading",
+      "inference"
+    ],
+    "difficulty": "vận dụng",
+    "passage": "Mưa vừa tạnh. Trên lá bàng còn đọng những giọt nước nhỏ long lanh. Sân trường thơm mùi đất ướt, lũ chim sẻ ríu ran trên mái ngói.",
+    "question": "Chi tiết nào góp phần gợi rõ nhất cảm giác tươi mới sau mưa?",
+    "options": {
+      "A": "Giọt nước long lanh và mùi đất ướt",
+      "B": "Mái ngói ở sân trường",
+      "C": "Số lượng chim sẻ",
+      "D": "Thời gian mưa tạnh đã bao lâu"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 215,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "matching",
+    "topic": "Ghép mục đích với kiểu văn bản",
+    "source_unit": "Nhiều chủ điểm",
+    "source_lesson": "Đọc và viết văn bản",
+    "skill_tag": [
+      "functional-writing",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép mục đích với kiểu văn bản phù hợp.",
+    "items": [
+      {
+        "label": "Hỏi thăm một người bạn",
+        "correct_match": "Viết thư"
+      },
+      {
+        "label": "Thông báo kết quả làm việc của nhóm",
+        "correct_match": "Báo cáo"
+      },
+      {
+        "label": "Kể lại một việc đáng nhớ",
+        "correct_match": "Bài văn kể chuyện"
+      }
+    ],
+    "option_pool": [
+      "Viết thư",
+      "Báo cáo",
+      "Bài văn kể chuyện"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 216,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Liên kết đoạn văn",
+    "source_unit": "Vì một thế giới bình yên",
+    "source_lesson": "Viết đoạn văn",
+    "skill_tag": [
+      "cohesion",
+      "writing"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn các câu trong đoạn liên kết tốt hơn, người viết nên làm gì?",
+    "options": {
+      "A": "Sử dụng từ ngữ nối và giữ các câu cùng hướng vào một ý chính",
+      "B": "Đưa thật nhiều ý khác nhau vào cùng một đoạn",
+      "C": "Thay đổi chủ đề liên tục cho sinh động",
+      "D": "Mỗi câu dùng một cách xưng hô khác nhau"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 217,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Mở bài phù hợp",
+    "source_unit": "Trải nghiệm và khám phá",
+    "source_lesson": "Viết bài văn kể chuyện",
+    "skill_tag": [
+      "writing",
+      "organization"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu viết bài kể về một lần giúp đỡ bạn, cách mở bài nào phù hợp hơn?",
+    "options": {
+      "A": "Giới thiệu ngắn gọn hoàn cảnh xảy ra việc em giúp bạn",
+      "B": "Liệt kê tất cả môn học em thích",
+      "C": "Nói ngay kết luận mà không nhắc sự việc",
+      "D": "Chép một câu thơ không liên quan rồi dừng lại"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 218,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Nhan đề phù hợp",
+    "source_unit": "Sống để yêu thương",
+    "source_lesson": "Đọc hiểu văn bản",
+    "skill_tag": [
+      "reading",
+      "main-idea"
+    ],
+    "difficulty": "vận dụng",
+    "passage": "Tối nào ông cũng ngồi trước hiên đan lại chiếc rổ cũ. Tôi ngồi cạnh, nghe ông kể chuyện làng xưa và học cách kiên nhẫn với từng nan tre nhỏ.",
+    "question": "Nhan đề nào phù hợp nhất với đoạn văn?",
+    "options": {
+      "A": "Bài học bên hiên nhà",
+      "B": "Chiếc xe đạp mới",
+      "C": "Một buổi đi chợ",
+      "D": "Trận bóng chiều hè"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 219,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "ordering",
+    "topic": "Sắp xếp đoạn kể việc tốt",
+    "source_unit": "Sống để yêu thương",
+    "source_lesson": "Viết đoạn văn kể việc làm tốt",
+    "skill_tag": [
+      "writing",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp các ý để tạo thành trình tự kể việc làm tốt hợp lí.",
+    "items": [
+      {
+        "label": "Nêu hoàn cảnh xảy ra sự việc",
+        "correct_position": 1
+      },
+      {
+        "label": "Kể việc em đã làm",
+        "correct_position": 2
+      },
+      {
+        "label": "Nêu kết quả và điều em rút ra",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 220,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Tính từ",
+    "source_unit": "Niềm vui sáng tạo",
+    "source_lesson": "Luyện tập về tính từ",
+    "skill_tag": [
+      "grammar",
+      "effect"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong câu “Dòng sông hiền hoà lấp lánh dưới nắng”, từ nào là tính từ?",
+    "options": {
+      "A": "hiền hoà",
+      "B": "dòng",
+      "C": "dưới",
+      "D": "nắng"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 221,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Trình tự kể chuyện",
+    "source_unit": "Trải nghiệm và khám phá",
+    "source_lesson": "Viết bài văn kể lại sự việc",
+    "skill_tag": [
+      "writing",
+      "sequence"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Để bài văn kể lại một sự việc mạch lạc, cách sắp xếp nào thường phù hợp nhất?",
+    "options": {
+      "A": "Theo trình tự diễn biến của sự việc và làm rõ chi tiết chính",
+      "B": "Nghĩ đến chi tiết nào viết ngay chi tiết đó",
+      "C": "Viết phần kết trước, bỏ qua nguyên nhân",
+      "D": "Lặp lại một ý quan trọng nhiều lần là đủ"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 222,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "short_answer",
+    "topic": "Từ ngữ gợi tả",
+    "source_unit": "Quê hương trong tôi",
+    "source_lesson": "Đọc hiểu",
+    "skill_tag": [
+      "reading",
+      "short-answer"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Viết một từ ngữ gợi tả thích hợp để hoàn thành câu: “Cánh đồng lúa chín vàng ... dưới nắng chiều.”",
+    "correct_answer": "óng ả",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 223,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Viết thư",
+    "source_unit": "Chắp cánh ước mơ",
+    "source_lesson": "Viết thư",
+    "skill_tag": [
+      "functional-writing",
+      "purpose"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong lá thư hỏi thăm bạn, phần nào giúp người đọc hiểu rõ mục đích bức thư nhất?",
+    "options": {
+      "A": "Đoạn nêu lí do viết thư và nội dung hỏi thăm",
+      "B": "Chỉ ghi địa chỉ người gửi",
+      "C": "Chỉ viết lời chào mà không có nội dung chính",
+      "D": "Chỉ kí tên cuối thư"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 224,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Câu chủ đề trong đoạn văn",
+    "source_unit": "Mỗi người một vẻ",
+    "source_lesson": "Đọc và viết đoạn văn",
+    "skill_tag": [
+      "writing",
+      "cohesion"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Câu chủ đề trong đoạn văn thường có vai trò gì?",
+    "options": {
+      "A": "Nêu ý chính để các câu sau làm rõ thêm",
+      "B": "Chỉ dùng để kể chuyện cười cho hấp dẫn",
+      "C": "Thay thế cho toàn bộ các câu còn lại",
+      "D": "Không liên quan đến nội dung đoạn văn"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 225,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 4,
+    "book": "Tiếng Việt 4 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Nhân hoá",
+    "source_unit": "Niềm vui sáng tạo",
+    "source_lesson": "Biện pháp nghệ thuật",
+    "skill_tag": [
+      "reading",
+      "meaning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Câu nào sử dụng biện pháp nhân hoá?",
+    "options": {
+      "A": "Những hàng cây đứng lặng nghe tiếng trống trường",
+      "B": "Hàng cây rất cao và xanh",
+      "C": "Có nhiều cây trước sân",
+      "D": "Lá cây màu xanh đậm"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 226,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3342,12 +7687,18 @@ export default [
       "D": "Lặp lại một ý nhiều lần"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 120
+    "number": 227,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3364,18 +7715,24 @@ export default [
     "type": "single_choice",
     "question": "Trong câu 'Lan reo lên: - Ôi, cuối cùng chúng mình cũng hoàn thành rồi!', dấu gạch ngang có tác dụng gì?",
     "options": {
-      "A": "Đánh dấu lời nói trực tiếp",
-      "B": "Ngăn cách trạng ngữ",
-      "C": "Nối hai tiếng trong từ ghép",
-      "D": "Kết thúc câu hỏi"
+      "A": "động từ",
+      "B": "danh từ",
+      "C": "Đánh dấu lời nói trực tiếp",
+      "D": "tính từ"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 121
+    "number": 228,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -3399,12 +7756,18 @@ export default [
       "D": "Bà ngồi ở chiếc ghế nào"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 122
+    "number": 229,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3427,12 +7790,18 @@ export default [
       "D": "Viết không cần mở đầu và kết thúc"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 123
+    "number": 230,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3455,12 +7824,18 @@ export default [
       "D": "Càng nhiều câu đùa càng tốt"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 124
+    "number": 231,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3477,18 +7852,24 @@ export default [
     "type": "single_choice",
     "question": "Tính từ trong câu 'Mặt hồ buổi sớm phẳng lặng và trong veo.' giúp làm nổi bật điều gì?",
     "options": {
-      "A": "Đặc điểm của mặt hồ",
-      "B": "Tên của hồ",
-      "C": "Thời gian một cách trực tiếp",
-      "D": "Người kể chuyện"
+      "A": "danh từ",
+      "B": "động từ",
+      "C": "tính từ",
+      "D": "Đặc điểm của mặt hồ"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 125
+    "number": 232,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -3505,18 +7886,24 @@ export default [
     "type": "single_choice",
     "question": "Câu nào dưới đây có chủ ngữ là một cụm từ chứ không phải chỉ một từ đơn?",
     "options": {
-      "A": "Mưa rơi.",
-      "B": "Đàn chim sẻ ríu ran trên mái ngói.",
-      "C": "Em học bài.",
-      "D": "Nắng lên."
+      "A": "Đàn chim sẻ ríu ran trên mái ngói.",
+      "B": "danh từ",
+      "C": "động từ",
+      "D": "tính từ"
     },
-    "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 126,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 233,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -3539,12 +7926,18 @@ export default [
       "D": "Bạn em cũng thích đọc sách"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 127,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 234,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3567,12 +7960,18 @@ export default [
       "D": "Không dùng cảm xúc hay hình ảnh nào"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 128,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 235,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3596,12 +7995,18 @@ export default [
       "D": "Buổi sáng thường có gió mát."
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 129,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 236,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3624,12 +8029,13 @@ export default [
       "Sự quan tâm của bạn nhỏ dành cho mẹ",
       "Bạn nhỏ chăm sóc mẹ"
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 130,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 237,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 4,
@@ -3646,18 +8052,24 @@ export default [
     "type": "single_choice",
     "question": "Trong câu 'Những cánh buồm trắng nhỏ dần sau cửa biển.', đâu là chủ ngữ?",
     "options": {
-      "A": "Nhỏ dần sau cửa biển",
-      "B": "Những cánh buồm trắng",
-      "C": "Sau cửa biển",
-      "D": "Trắng nhỏ dần"
+      "A": "Những cánh buồm trắng",
+      "B": "danh từ",
+      "C": "động từ",
+      "D": "tính từ"
     },
-    "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 131,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 238,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -3680,12 +8092,18 @@ export default [
       "D": "Viết thật dài nhưng không đánh số bước"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 132,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 239,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3708,12 +8126,18 @@ export default [
       "D": "Số hiệu lớp học gần cây"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 133,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 240,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3730,18 +8154,24 @@ export default [
     "type": "single_choice",
     "question": "Trong câu 'Sáng sớm, trên sân đình, tiếng trống hội vang lên rộn rã.', bộ phận nào là trạng ngữ chỉ nơi chốn?",
     "options": {
-      "A": "Sáng sớm",
+      "A": "danh từ",
       "B": "Trên sân đình",
-      "C": "Tiếng trống hội",
-      "D": "Vang lên rộn rã"
+      "C": "động từ",
+      "D": "tính từ"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 134,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 241,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -3758,18 +8188,24 @@ export default [
     "type": "single_choice",
     "question": "Trường hợp nào cần dùng dấu ngoặc kép?",
     "options": {
-      "A": "Đánh dấu lời nói trực tiếp của nhân vật",
-      "B": "Ngăn cách trạng ngữ với chủ ngữ",
-      "C": "Nối các tiếng trong tên riêng nước ngoài phiên âm",
-      "D": "Kết thúc câu kể"
+      "A": "danh từ",
+      "B": "động từ",
+      "C": "tính từ",
+      "D": "Đánh dấu lời nói trực tiếp của nhân vật"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 135,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 242,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 4,
@@ -3793,12 +8229,18 @@ export default [
       "D": "Thay thế hoàn toàn việc quan sát thực tế"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 136,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 243,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 4,
@@ -3821,16 +8263,22 @@ export default [
       "D": "Tìm từ nào có nét chữ đẹp hơn"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 137,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 244,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 138,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 245,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -3840,18 +8288,25 @@ export default [
     "question": "Câu nào thể hiện cảm xúc trước một việc tốt?",
     "options": {
       "A": "Em rất vui và khâm phục khi thấy các bạn quyên góp sách cho thư viện lớp.",
-      "B": "Các bạn quyên góp sách vào thứ sáu.",
-      "C": "Thư viện lớp đặt ở tầng một."
+      "B": "Chi tiết phụ nhưng không làm rõ nội dung trung tâm",
+      "C": "Thông tin không xuất hiện trong văn bản",
+      "D": "Nhận xét quá rộng so với đoạn văn"
     },
     "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 139,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 246,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -3867,12 +8322,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 140,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 247,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -3906,12 +8362,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 141,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 248,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -3945,12 +8402,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 142,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 249,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -3966,12 +8424,17 @@ export default [
     "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-fallback"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 143,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 250,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -3980,19 +8443,26 @@ export default [
     "type": "single_choice",
     "question": "Biện pháp nhân hoá trong câu 'Mặt trời thức dậy rất sớm' có tác dụng gì?",
     "options": {
-      "A": "Làm cho sự vật trở nên gần gũi, sinh động",
-      "B": "Làm cho câu văn khó hiểu hơn",
-      "C": "Chỉ để câu văn dài hơn"
+      "A": "Thông tin không xuất hiện trong văn bản",
+      "B": "Chi tiết phụ nhưng không làm rõ nội dung trung tâm",
+      "C": "Làm cho sự vật trở nên gần gũi, sinh động",
+      "D": "Nhận xét quá rộng so với đoạn văn"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 144,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 251,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4001,19 +8471,26 @@ export default [
     "type": "single_choice",
     "question": "Đọc đoạn văn sau: 'Sau cơn mưa, vườn cây như được gội rửa. Lá nào cũng xanh hơn, giọt nước còn đọng long lanh trên cành.' Cảm nhận phù hợp nhất về khu vườn là:",
     "options": {
-      "A": "Khu vườn khô héo, xác xơ",
-      "B": "Khu vườn tươi mới, trong trẻo sau mưa",
-      "C": "Khu vườn tối tăm, đáng sợ"
+      "A": "Khai thác nhiều hơn mà không cần phục hồi",
+      "B": "Chỉ cần quan tâm lợi ích trước mắt",
+      "C": "Bảo vệ môi trường là việc riêng của người lớn",
+      "D": "Khu vườn tươi mới, trong trẻo sau mưa"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 145,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 252,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4022,19 +8499,26 @@ export default [
     "type": "single_choice",
     "question": "Đọc câu: 'Dòng sông quê em hiền hòa, lấp lánh dưới nắng chiều.' Từ nào gợi tả vẻ đẹp của dòng sông rõ nhất?",
     "options": {
-      "A": "quê em",
-      "B": "hiền hòa, lấp lánh",
-      "C": "dưới"
+      "A": "Thông tin không xuất hiện trong văn bản",
+      "B": "Nhận xét quá rộng so với đoạn văn",
+      "C": "hiền hòa, lấp lánh",
+      "D": "Chi tiết phụ nhưng không làm rõ nội dung trung tâm"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 146,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 253,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4063,12 +8547,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 147,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 254,
     "grade": 4,
     "book": "Tiếng Việt 4 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4077,15 +8562,634 @@ export default [
     "type": "single_choice",
     "question": "Trong câu 'Buổi sáng, sân trường rộn rã tiếng nói cười.', bộ phận 'Buổi sáng' là:",
     "options": {
-      "A": "Chủ ngữ",
-      "B": "Trạng ngữ",
-      "C": "Vị ngữ"
+      "A": "động từ",
+      "B": "danh từ",
+      "C": "Trạng ngữ",
+      "D": "tính từ"
     },
-    "correct_answer": "B",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Bài văn tả cảnh",
+    "source_unit": "Thiên nhiên kì thú",
+    "source_lesson": "Viết bài văn tả cảnh",
+    "skill_tag": [
+      "writing",
+      "description"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi tả cảnh biển buổi sáng, chi tiết nào giúp đoạn văn giàu hình ảnh hơn cả?",
+    "options": {
+      "A": "Màu trời, tiếng sóng, ánh nắng và hoạt động của thuyền bè",
+      "B": "Chỉ nêu tên địa điểm một lần",
+      "C": "Liệt kê các con số không liên quan",
+      "D": "Chỉ nói “cảnh rất đẹp” nhiều lần"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 255,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Bài văn tả người",
+    "source_unit": "Vẻ đẹp cuộc sống",
+    "source_lesson": "Viết bài văn tả người",
+    "skill_tag": [
+      "writing",
+      "portrait"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Muốn tả người chân thực, người viết nên chú ý nhất đến điều gì?",
+    "options": {
+      "A": "Chọn chi tiết ngoại hình, cử chỉ và nét tính cách nổi bật",
+      "B": "Chỉ chép lại một đoạn văn mẫu có sẵn",
+      "C": "Bỏ qua hoạt động của nhân vật",
+      "D": "Càng dùng nhiều từ khen chung chung càng tốt"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 256,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Câu kết bài",
+    "source_unit": "Thế giới của chúng ta",
+    "source_lesson": "Viết đoạn, bài văn",
+    "skill_tag": [
+      "writing",
+      "organization"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Câu kết bài nào phù hợp hơn cho bài văn nêu ý kiến về việc đọc sách?",
+    "options": {
+      "A": "Vì thế, em mong mỗi bạn đều dành thời gian đọc sách để hiểu biết và sống đẹp hơn.",
+      "B": "Ngoài ra, hôm nay trời khá nóng.",
+      "C": "Em đã ăn sáng trước khi đi học.",
+      "D": "Bạn Lan ngồi cạnh em rất thích đá cầu."
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 257,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Chi tiết tiêu biểu khi tả người",
+    "source_unit": "Vẻ đẹp cuộc sống",
+    "source_lesson": "Viết bài văn tả người",
+    "skill_tag": [
+      "writing",
+      "portrait"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong bài văn tả cô giáo, chi tiết nào thường có sức gợi hơn?",
+    "options": {
+      "A": "Nụ cười, ánh mắt và cách cô kiên nhẫn hướng dẫn học sinh",
+      "B": "Chỉ ghi năm sinh của cô",
+      "C": "Liệt kê đồ dùng trong lớp",
+      "D": "Nêu tên trường mà không nói gì về cô"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 258,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Chọn nhan đề",
+    "source_unit": "Vẻ đẹp cuộc sống",
+    "source_lesson": "Đọc hiểu văn bản",
+    "skill_tag": [
+      "reading",
+      "main-idea"
+    ],
+    "difficulty": "vận dụng",
+    "passage": "Bố về muộn sau buổi trực nhưng vẫn cúi xuống sửa lại chiếc đèn học cho tôi. Ánh đèn vừa sáng lên, tôi bỗng thấy căn phòng nhỏ ấm hơn hẳn.",
+    "question": "Nhan đề nào phù hợp nhất với đoạn văn?",
+    "options": {
+      "A": "Ánh đèn của bố",
+      "B": "Chiếc bàn học cũ",
+      "C": "Buổi tối mất điện",
+      "D": "Cuộc thi thể thao ở trường"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 259,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Đoạn văn bày tỏ cảm xúc",
+    "source_unit": "Hương sắc trăm miền",
+    "source_lesson": "Viết đoạn văn thể hiện cảm xúc",
+    "skill_tag": [
+      "emotion",
+      "writing"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Để đoạn văn bày tỏ cảm xúc chân thật hơn, người viết nên:",
+    "options": {
+      "A": "Gắn cảm xúc với những chi tiết, hình ảnh cụ thể đã quan sát",
+      "B": "Chỉ dùng những lời khen rất chung chung",
+      "C": "Không cần nêu chi tiết nào vì cảm xúc tự rõ",
+      "D": "Lặp lại một câu cảm thán nhiều lần"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 260,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Đọc hiểu hàm ý của từ ngữ",
+    "source_unit": "Hương sắc trăm miền",
+    "source_lesson": "Đọc hiểu",
+    "skill_tag": [
+      "reading",
+      "inference"
+    ],
+    "difficulty": "vận dụng",
+    "passage": "Con đường làng sau mùa gặt bỗng rộng ra, vàng óng và thơm mùi rạ mới. Bà tôi bảo, chỉ cần bước chân trên lối ấy thôi cũng đủ nghe quê nhà gọi khẽ trong tim.",
+    "question": "Từ “gọi khẽ trong tim” gợi lên điều gì?",
+    "options": {
+      "A": "Tình cảm tha thiết, gắn bó với quê hương",
+      "B": "Âm thanh thật sự phát ra từ con đường",
+      "C": "Sự sợ hãi khi đi một mình",
+      "D": "Tiếng nói của bà vang rất to"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 261,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Đọc hiểu ý chính",
+    "source_unit": "Tiếp bước cha ông",
+    "source_lesson": "Đọc hiểu văn bản",
+    "skill_tag": [
+      "reading",
+      "main-idea"
+    ],
+    "difficulty": "vận dụng",
+    "passage": "Buổi sinh hoạt dưới cờ hôm ấy, cả sân trường lặng đi khi thầy kể về những người lính trẻ đã hi sinh để bảo vệ Tổ quốc. Lá cờ trên cao phần phật trong gió, còn chúng tôi ai cũng thấy lòng mình chững lại.",
+    "question": "Ý chính của đoạn văn là gì?",
+    "options": {
+      "A": "Sự xúc động và lòng biết ơn khi nghe kể về những người hi sinh vì Tổ quốc",
+      "B": "Tả chi tiết cấu tạo của lá cờ",
+      "C": "Kể chuyện chơi đùa ở sân trường",
+      "D": "Giới thiệu giờ ra chơi buổi sáng"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 262,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "matching",
+    "topic": "Ghép mục đích với cách viết",
+    "source_unit": "Nhiều chủ điểm",
+    "source_lesson": "Viết các kiểu đoạn văn",
+    "skill_tag": [
+      "writing",
+      "matching"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Ghép mục đích với cách viết phù hợp nhất.",
+    "items": [
+      {
+        "label": "Muốn thuyết phục người đọc",
+        "correct_match": "Nêu ý kiến kèm lí lẽ"
+      },
+      {
+        "label": "Muốn người đọc hình dung cảnh vật",
+        "correct_match": "Chọn chi tiết gợi tả"
+      },
+      {
+        "label": "Muốn người đọc hiểu cảm xúc của em",
+        "correct_match": "Gắn cảm xúc với chi tiết cụ thể"
+      }
+    ],
+    "option_pool": [
+      "Nêu ý kiến kèm lí lẽ",
+      "Chọn chi tiết gợi tả",
+      "Gắn cảm xúc với chi tiết cụ thể"
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 263,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Lựa chọn dẫn chứng",
+    "source_unit": "Tiếp bước cha ông",
+    "source_lesson": "Viết đoạn văn nêu ý kiến",
+    "skill_tag": [
+      "argument",
+      "reasoning"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Nếu muốn thuyết phục bạn chăm đọc sách lịch sử, dẫn chứng nào phù hợp hơn cả?",
+    "options": {
+      "A": "Đọc sách lịch sử giúp hiểu quá khứ và thêm trân trọng hiện tại",
+      "B": "Sách lịch sử dày nên cầm rất chắc tay",
+      "C": "Bìa sách thường có nhiều màu đẹp",
+      "D": "Ai cũng phải thích cùng một loại sách"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 264,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Mở bài gián tiếp",
+    "source_unit": "Thiên nhiên kì thú",
+    "source_lesson": "Viết bài văn tả cảnh",
+    "skill_tag": [
+      "writing",
+      "organization"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Mở bài nào được xem là gián tiếp khi tả cảnh cánh đồng quê?",
+    "options": {
+      "A": "Từ mùi rơm mới sau cơn mưa, em nhớ ngay đến cánh đồng quê mỗi mùa gặt.",
+      "B": "Em tả cánh đồng quê em.",
+      "C": "Cánh đồng là nơi có nhiều lúa.",
+      "D": "Bài văn này nói về cánh đồng."
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 265,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Nêu ý kiến phản đối",
+    "source_unit": "Thế giới của chúng ta",
+    "source_lesson": "Viết đoạn văn nêu ý kiến",
+    "skill_tag": [
+      "argument",
+      "writing"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Khi nêu ý kiến phản đối việc xả rác bừa bãi, cách viết nào thuyết phục hơn?",
+    "options": {
+      "A": "Nêu rõ quan điểm, lí do và tác hại cụ thể của hành vi đó",
+      "B": "Chỉ viết “Em không thích” rồi dừng lại",
+      "C": "Chuyển sang kể chuyện cá nhân không liên quan",
+      "D": "Nêu thật nhiều cảm xúc nhưng không có lí lẽ nào"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 266,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Quan hệ từ",
+    "source_unit": "Vẻ đẹp cuộc sống",
+    "source_lesson": "Cách nối các vế câu ghép",
+    "skill_tag": [
+      "grammar",
+      "logic"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Cặp quan hệ từ nào biểu thị quan hệ nguyên nhân - kết quả?",
+    "options": {
+      "A": "vì ... nên ...",
+      "B": "tuy ... nhưng ...",
+      "C": "nếu ... thì ...",
+      "D": "không những ... mà còn ..."
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 267,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "ordering",
+    "topic": "Sắp xếp đoạn nêu ý kiến",
+    "source_unit": "Thế giới của chúng ta",
+    "source_lesson": "Viết đoạn văn nêu ý kiến",
+    "skill_tag": [
+      "argument",
+      "ordering"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Sắp xếp ý để tạo thành đoạn văn nêu ý kiến hợp lí.",
+    "items": [
+      {
+        "label": "Nêu ý kiến của em",
+        "correct_position": 1
+      },
+      {
+        "label": "Đưa ra lí do và dẫn chứng",
+        "correct_position": 2
+      },
+      {
+        "label": "Khẳng định lại hoặc nêu mong muốn",
+        "correct_position": 3
+      }
+    ],
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 268,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "short_answer",
+    "topic": "Từ ngữ gợi hoà bình",
+    "source_unit": "Thế giới của chúng ta",
+    "source_lesson": "Đọc hiểu",
+    "skill_tag": [
+      "reading",
+      "short-answer"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Viết một từ ngữ gợi không khí yên bình để hoàn thành câu: “Buổi chiều trên cánh đồng thật ...”.",
+    "correct_answer": "êm ả",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "number": 269,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Từ ngữ liên kết",
+    "source_unit": "Hương sắc trăm miền",
+    "source_lesson": "Liên kết câu và đoạn",
+    "skill_tag": [
+      "cohesion",
+      "grammar"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong câu “Trời đổ mưa lớn, ... đoàn tham quan vẫn tiếp tục đúng kế hoạch”, từ nối nào phù hợp nhất?",
+    "options": {
+      "A": "nhưng",
+      "B": "vì",
+      "C": "nếu",
+      "D": "nên"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 270,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Từ thay thế để liên kết",
+    "source_unit": "Hương sắc trăm miền",
+    "source_lesson": "Liên kết câu và đoạn",
+    "skill_tag": [
+      "cohesion",
+      "application"
+    ],
+    "difficulty": "vận dụng",
+    "question": "Trong đoạn văn nói về “cây phượng”, từ nào có thể dùng thay thế để tránh lặp mà vẫn liên kết tốt?",
+    "options": {
+      "A": "loài cây ấy",
+      "B": "con vật ấy",
+      "C": "bài học ấy",
+      "D": "việc làm ấy"
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 271,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
+  },
+  {
+    "grade": 5,
+    "book": "Tiếng Việt 5 - Kết nối tri thức",
+    "subject": "Tiếng Việt",
+    "type": "single_choice",
+    "topic": "Biện pháp so sánh",
+    "source_unit": "Nghệ thuật muôn màu",
+    "source_lesson": "Đọc hiểu và nghệ thuật",
+    "skill_tag": [
+      "reading",
+      "meaning"
+    ],
+    "difficulty": "thông hiểu",
+    "question": "Câu nào có sử dụng biện pháp so sánh?",
+    "options": {
+      "A": "Tiếng suối trong như tiếng hát xa.",
+      "B": "Tiếng suối chảy trong rừng.",
+      "C": "Suối ở rất xa bản làng.",
+      "D": "Tiếng hát của bạn vang lên."
+    },
+    "correct_answer": "A",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "revision_round": "v6",
+    "source_origin": "v5-hard",
+    "quality_tier": "hard",
+    "selection_reason": "new_v5_hard",
+    "options_version": "v5-authored",
+    "distractor_enhanced": true,
+    "number": 272,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4108,12 +9212,18 @@ export default [
       "D": "Không cần nêu cảm nghĩ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 148
+    "number": 273,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4136,12 +9246,18 @@ export default [
       "D": "Chỉ nói mình thích hay không thích"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 149
+    "number": 274,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4158,18 +9274,24 @@ export default [
     "type": "single_choice",
     "question": "Cặp quan hệ từ nào thích hợp nhất để nối hai vế câu chỉ điều kiện - kết quả?",
     "options": {
-      "A": "nếu ... thì ...",
-      "B": "tuy ... nhưng ...",
-      "C": "vì ... nên ...",
-      "D": "không những ... mà còn ..."
+      "A": "tính từ",
+      "B": "danh từ",
+      "C": "động từ",
+      "D": "nếu ... thì ..."
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 150
+    "number": 275,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -4192,12 +9314,18 @@ export default [
       "D": "Em rất thích xem hoạt hình."
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 151
+    "number": 276,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4220,12 +9348,18 @@ export default [
       "D": "Không cần nêu cảm xúc thật của mình"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 152
+    "number": 277,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4249,12 +9383,18 @@ export default [
       "D": "trưa hè"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v4-hard",
     "quality_tier": "hard",
-    "revision_round": "v4",
+    "revision_round": "v6",
     "selection_reason": "new_v4_hard",
-    "number": 153
+    "number": 278,
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4271,18 +9411,24 @@ export default [
     "type": "single_choice",
     "question": "Câu ghép nào thể hiện quan hệ nguyên nhân - kết quả?",
     "options": {
-      "A": "Tuy trời mưa nhưng chúng em vẫn đến lớp.",
-      "B": "Vì bạn Nam chăm chỉ nên bạn ấy tiến bộ rõ rệt.",
-      "C": "Nếu trời nắng thì em đi bơi.",
-      "D": "Mưa tạnh và nắng lên."
+      "A": "Vì không cần căn cứ vào nội dung thực tế để giải thích",
+      "B": "Vì mọi trường hợp đều có thể suy ra theo một cách duy nhất",
+      "C": "Vì bạn Nam chăm chỉ nên bạn ấy tiến bộ rõ rệt.",
+      "D": "Vì điều kiện, hoàn cảnh và mục tiêu cụ thể quyết định cách hiểu đúng nhất"
     },
-    "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 154,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 279,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -4306,12 +9452,18 @@ export default [
       "D": "Ví tiền"
     },
     "correct_answer": "C",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 155,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 280,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4334,12 +9486,18 @@ export default [
       "D": "Chuyển sang nói về môn thể thao yêu thích"
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 156,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 281,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4362,12 +9520,18 @@ export default [
       "D": "Một số cây có tên rất lạ"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 157,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 282,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4384,18 +9548,24 @@ export default [
     "type": "single_choice",
     "question": "Từ nối nào thích hợp nhất để hoàn chỉnh câu sau: 'Mưa đã ngớt, ... các cô chú công nhân vẫn khẩn trương dọn cây gãy trên đường.'",
     "options": {
-      "A": "nhưng",
-      "B": "vì",
-      "C": "nên",
-      "D": "nếu"
+      "A": "động từ",
+      "B": "tính từ",
+      "C": "nhưng",
+      "D": "danh từ"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 158,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 283,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -4412,18 +9582,24 @@ export default [
     "type": "single_choice",
     "question": "Để đoạn văn sau mạch lạc hơn, em nên chọn câu nào đặt ở cuối đoạn? 'Sáng nào ông cũng dậy sớm tưới cây. Ông chăm từng gốc hồng, gốc cúc rất tỉ mỉ. ...'",
     "options": {
-      "A": "Nhờ vậy, khu vườn nhỏ trước nhà luôn rực rỡ sắc hoa.",
-      "B": "Em thích ăn kem vào mùa hè.",
-      "C": "Con mèo nhà em rất nghịch.",
-      "D": "Hôm nay là thứ ba."
+      "A": "danh từ",
+      "B": "động từ",
+      "C": "tính từ",
+      "D": "Nhờ vậy, khu vườn nhỏ trước nhà luôn rực rỡ sắc hoa."
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "D",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 159,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 284,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -4446,12 +9622,13 @@ export default [
       "Bố âm thầm chăm lo cho con",
       "Tình thương thầm lặng của bố"
     ],
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 160,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 285,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
     "grade": 5,
@@ -4474,12 +9651,18 @@ export default [
       "D": "Chiều thứ sáu trời rất mát."
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 161,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 286,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4502,12 +9685,18 @@ export default [
       "D": "Bài viết của bạn đã chín ý rồi."
     },
     "correct_answer": "B",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 162,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 287,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4524,18 +9713,24 @@ export default [
     "type": "single_choice",
     "question": "Trong câu nào dưới đây, cách viết hoa thể hiện sự tôn trọng đặc biệt là đúng?",
     "options": {
-      "A": "Chúng em luôn biết ơn các chú bộ đội và Bác Hồ.",
-      "B": "Chúng em luôn biết ơn Các Chú Bộ Đội.",
-      "C": "Chúng em luôn biết ơn bác hồ.",
-      "D": "Chúng em luôn biết ơn Bác hồ."
+      "A": "Làm theo cảm tính cho nhanh",
+      "B": "Chọn cách làm phù hợp với mục tiêu và điều kiện thực tế",
+      "C": "Chúng em luôn biết ơn các chú bộ đội và Bác Hồ.",
+      "D": "Bỏ qua bước quan trọng vì nghĩ không cần thiết"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 163,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 288,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
     "grade": 5,
@@ -4558,12 +9753,18 @@ export default [
       "D": "Danh sách các bộ phim yêu thích"
     },
     "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 164,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 289,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
     "grade": 5,
@@ -4581,22 +9782,28 @@ export default [
     "passage": "Dòng sông quê tôi hiền hoà quanh năm. Dòng sông ấy bồi đắp phù sa cho bãi ngô xanh tốt.",
     "question": "Hai câu trong đoạn văn liên kết với nhau chủ yếu bằng cách nào?",
     "options": {
-      "A": "Lặp từ ngữ",
-      "B": "Dùng từ trái nghĩa",
-      "C": "Dùng dấu hai chấm",
-      "D": "Dùng câu hỏi"
+      "A": "Làm theo cảm tính cho nhanh",
+      "B": "Bỏ qua bước quan trọng vì nghĩ không cần thiết",
+      "C": "Lặp từ ngữ",
+      "D": "Chọn cách làm phù hợp với mục tiêu và điều kiện thực tế"
     },
-    "correct_answer": "A",
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
+    "correct_answer": "C",
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
     "source_origin": "v3-hard",
     "quality_tier": "hard",
-    "number": 165,
-    "revision_round": "v4",
-    "selection_reason": "kept_v3_hard"
+    "number": 290,
+    "revision_round": "v6",
+    "selection_reason": "kept_v3_hard",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "options_version": "legacy",
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 166,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 291,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4605,19 +9812,26 @@ export default [
     "type": "single_choice",
     "question": "Muốn viết đoạn văn nêu ý kiến tán thành một việc tốt, em nên chọn cách mở đầu nào phù hợp nhất?",
     "options": {
-      "A": "Em hoàn toàn đồng tình với việc trồng thêm cây xanh trong trường học vì việc này mang lại nhiều lợi ích.",
-      "B": "Hôm nay trời nắng to nên em mang mũ đến lớp.",
-      "C": "Nhà em có một chiếc bàn học màu xanh."
+      "A": "Chỉ nêu cảm xúc chung chung mà thiếu chi tiết",
+      "B": "Lặp lại một câu nhiều lần để tạo ấn tượng",
+      "C": "Em hoàn toàn đồng tình với việc trồng thêm cây xanh trong trường học vì việc này mang lại nhiều lợi ích.",
+      "D": "Liệt kê ý rời rạc không theo trình tự"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 167,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 292,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4626,19 +9840,26 @@ export default [
     "type": "single_choice",
     "question": "Đọc đoạn văn sau: 'Bố em là bộ đội biên phòng. Mỗi lần nghe bố kể chuyện tuần tra nơi biên giới, em càng thêm yêu Tổ quốc và trân trọng sự hi sinh thầm lặng của các chú bộ đội.' Tình cảm của bạn nhỏ trong đoạn văn là gì?",
     "options": {
-      "A": "Thờ ơ với công việc của bố",
-      "B": "Tự hào, yêu Tổ quốc và kính trọng các chú bộ đội",
-      "C": "Chỉ thích nghe chuyện phiêu lưu cho vui"
+      "A": "Lặp lại một câu nhiều lần để tạo ấn tượng",
+      "B": "Liệt kê ý rời rạc không theo trình tự",
+      "C": "Chỉ nêu cảm xúc chung chung mà thiếu chi tiết",
+      "D": "Tự hào, yêu Tổ quốc và kính trọng các chú bộ đội"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 168,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 293,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4647,19 +9868,26 @@ export default [
     "type": "single_choice",
     "question": "Đọc đoạn văn sau: 'Con đường đến trường rợp bóng cây. Mỗi sáng đi qua, em nghe mùi hoa sữa thoảng trong gió và thấy lòng mình nhẹ nhõm.' Cảm xúc của bạn nhỏ là:",
     "options": {
-      "A": "Lo lắng, sợ hãi",
-      "B": "Thanh thản, dễ chịu",
-      "C": "Bực bội, khó chịu"
+      "A": "Không cần quan tâm điều kiện sống nếu đã có thức ăn",
+      "B": "Chỉ cần nhìn bề ngoài là biết hoàn toàn tình trạng sức khoẻ",
+      "C": "Mọi sinh vật đều có nhu cầu sống giống hệt nhau",
+      "D": "Thanh thản, dễ chịu"
     },
-    "correct_answer": "B",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 169,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 294,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4675,12 +9903,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 170,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 295,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4714,12 +9943,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 171,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 296,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4753,12 +9983,13 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 172,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 297,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4767,19 +9998,25 @@ export default [
     "type": "single_choice",
     "question": "Câu nào phù hợp nhất với cách tả phong cảnh?",
     "options": {
-      "A": "Trên mặt hồ, ánh nắng sớm rung rinh như muôn vàn hạt vàng nhỏ.",
-      "B": "Em nộp bài kiểm tra Toán cho cô giáo.",
-      "C": "Con mèo nhà em rất thích ăn cá."
+      "A": "Liệt kê ý rời rạc không theo trình tự",
+      "B": "Lặp lại một ý cho đủ dài",
+      "C": "Trên mặt hồ, ánh nắng sớm rung rinh như muôn vàn hạt vàng nhỏ.",
+      "D": "Chọn chi tiết tiêu biểu và sắp xếp ý mạch lạc"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "hard",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_applied"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_applied",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": false,
+    "distractor_reviewed": true,
+    "distractor_changed": true,
+    "options_review_version": "v6-reviewed-changed"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 173,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 298,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4788,19 +10025,26 @@ export default [
     "type": "single_choice",
     "question": "Khi viết đoạn văn thể hiện tình cảm, cảm xúc về một sự việc, em cần chú ý nhất điều gì?",
     "options": {
-      "A": "Nêu cảm xúc chân thật và chọn chi tiết tiêu biểu",
-      "B": "Liệt kê thật nhiều số liệu",
-      "C": "Chỉ chép lại lời của người khác"
+      "A": "Liệt kê ý rời rạc không theo trình tự",
+      "B": "Chỉ nêu cảm xúc chung chung mà thiếu chi tiết",
+      "C": "Lặp lại một câu nhiều lần để tạo ấn tượng",
+      "D": "Nêu cảm xúc chân thật và chọn chi tiết tiêu biểu"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 174,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 299,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4809,19 +10053,26 @@ export default [
     "type": "single_choice",
     "question": "Hai câu sau liên kết với nhau chủ yếu bằng cách nào? 'Lan rất yêu cây phượng ở sân trường. Cây phượng ấy gắn với nhiều kỉ niệm của bạn.'",
     "options": {
-      "A": "Lặp từ ngữ",
-      "B": "Thay thế từ ngữ",
-      "C": "Dùng dấu gạch ngang"
+      "A": "Thay thế từ ngữ",
+      "B": "Không cần quan tâm điều kiện sống nếu đã có thức ăn",
+      "C": "Chỉ cần nhìn bề ngoài là biết hoàn toàn tình trạng sức khoẻ",
+      "D": "Mọi sinh vật đều có nhu cầu sống giống hệt nhau"
     },
-    "correct_answer": "B",
+    "correct_answer": "A",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 175,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 300,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4830,19 +10081,26 @@ export default [
     "type": "single_choice",
     "question": "Trong hai câu 'Cây bàng trước lớp em rất cao. Cây bàng ấy toả bóng mát suốt sân trường.', phép liên kết nổi bật là:",
     "options": {
-      "A": "Lặp từ ngữ",
-      "B": "Dùng từ trái nghĩa",
-      "C": "Dùng dấu ngoặc kép"
+      "A": "Chỉ cần nhìn bề ngoài là biết hoàn toàn tình trạng sức khoẻ",
+      "B": "Mọi sinh vật đều có nhu cầu sống giống hệt nhau",
+      "C": "Lặp từ ngữ",
+      "D": "Không cần quan tâm điều kiện sống nếu đã có thức ăn"
     },
-    "correct_answer": "A",
+    "correct_answer": "C",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 176,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 301,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4851,19 +10109,26 @@ export default [
     "type": "single_choice",
     "question": "Từ nào thích hợp điền vào chỗ trống để liên kết câu? 'Trời mưa to, ... chúng em vẫn đến trường đúng giờ.'",
     "options": {
-      "A": "nhưng",
-      "B": "và",
-      "C": "hoặc"
+      "A": "trạng ngữ",
+      "B": "danh từ",
+      "C": "động từ",
+      "D": "nhưng"
     },
-    "correct_answer": "A",
+    "correct_answer": "D",
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "curated_retained_single_choice"
+    "revision_round": "v6",
+    "selection_reason": "curated_retained_single_choice",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5",
+    "distractor_enhanced": true,
+    "options_version": "v5-enhanced",
+    "distractor_reviewed": true,
+    "distractor_changed": false,
+    "options_review_version": "v6-reviewed-kept"
   },
   {
-    "dataset_id": "kntt-lop6-ontap-bank-v4",
-    "number": 177,
+    "dataset_id": "kntt-lop6-ontap-bank-v6",
+    "number": 302,
     "grade": 5,
     "book": "Tiếng Việt 5 - Kết nối tri thức",
     "subject": "Tiếng Việt",
@@ -4879,7 +10144,8 @@ export default [
     ],
     "source_origin": "v2-retained",
     "quality_tier": "core-plus",
-    "revision_round": "v4",
-    "selection_reason": "kept_retained_non_single"
+    "revision_round": "v6",
+    "selection_reason": "kept_retained_non_single",
+    "parent_dataset": "kntt-lop6-ontap-bank-v5"
   }
 ];
