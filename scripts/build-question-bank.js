@@ -3,6 +3,11 @@ const path = require('path');
 
 const rootDir = path.resolve(__dirname, '..');
 const candidatePaths = [
+  path.join(rootDir, 'data', 'bank-chuan-v1.jsonl'),
+  path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v10.jsonl'),
+  path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v9.jsonl'),
+  path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v8.jsonl'),
+  path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v7.jsonl'),
   path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v6.jsonl'),
   path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v5.jsonl'),
   path.join(rootDir, 'data', 'kntt-lop6-ontap-bank-v4.jsonl'),
